@@ -1,0 +1,27 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "expo": "^32.0.0",
+    "firebase": "^5.9.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/expo": "^32.0.8",
+    "@types/react": "^16.8.8",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  },
+  "private": true
+}
