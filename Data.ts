@@ -22,6 +22,8 @@ export interface IPulse {
 }
 
 const firestore = firebase.firestore();
+
+export const database = firebase.database()
 // const settings = { timestampsInSnapshots: true};
 // firestore.settings(settings);
 
@@ -46,9 +48,7 @@ type IWearing = {
 }
 
 export const pulseHistorical: Rx.Observable<IWearing[]> = Rx.Observable.create((observer: Rx.Observer<IWearing[]>) => {
-    console.warn("asdf")
     firebase.firestore().collection("pulse").orderBy("timestamp", "desc").limit(1000).onSnapshot((snapshot) => {
-        console.warn("---")
         const pulses = snapshot.docs
         const data = (pulses.map((pulse) => {
             return pulse.data()
@@ -58,7 +58,7 @@ export const pulseHistorical: Rx.Observable<IWearing[]> = Rx.Observable.create((
             const d = moment(pulse.timestamp.toDate())
             return d.dayOfYear() + "-" + d.year()
         })
-        console.warn(_.keys(bucketed).length)
+        // console.warn(_.keys(bucketed).length)
         //aggregate daily results
         const daily_results = (_.values(bucketed).map((d) => {
             const sortedPulses = d.sort(dd => -1*dd.timestamp.seconds)
@@ -75,7 +75,7 @@ export const pulseHistorical: Rx.Observable<IWearing[]> = Rx.Observable.create((
             }
             wearing = wearing / 3600; //convert seconds to hours
             not_wearing = not_wearing / 3600; //convert seconds to hours
-            console.warn(wearing)
+            // console.warn(wearing)
             return {
                 day: firstPulseDate,
                 wearing
