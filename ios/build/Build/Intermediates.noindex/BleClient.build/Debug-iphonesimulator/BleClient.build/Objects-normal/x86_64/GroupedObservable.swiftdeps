@@ -1,0 +1,66 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupedObservable"
+provides-nominal:
+- "9BleClient17GroupedObservableV"
+provides-member:
+- ["9BleClient17GroupedObservableV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Disposable"
+- "GroupedObservable"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+depends-member:
+- ["9BleClient17GroupedObservableV", "Disposable"]
+- ["9BleClient17GroupedObservableV", "E"]
+- ["9BleClient17GroupedObservableV", "Element"]
+- ["9BleClient17GroupedObservableV", "Key"]
+- ["9BleClient17GroupedObservableV", "Observable"]
+- ["9BleClient17GroupedObservableV", "ObserverType"]
+- ["9BleClient17GroupedObservableV", "asObservable"]
+- ["9BleClient17GroupedObservableV", "deinit"]
+- ["9BleClient17GroupedObservableV", "init"]
+- ["9BleClient17GroupedObservableV", "key"]
+- !private ["9BleClient17GroupedObservableV", "source"]
+- ["9BleClient17GroupedObservableV", "subscribe"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- !private ["9BleClient10ObservableC", "subscribe"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", ""]
+- ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "key"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "source"]
+- ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- ["9BleClient14ObservableTypeP", "E"]
+- ["9BleClient14ObservableTypeP", ""]
+- ["9BleClient14ObservableTypeP", "asObservable"]
+- !private ["9BleClient14ObservableTypeP", "key"]
+- !private ["9BleClient14ObservableTypeP", "source"]
+- ["9BleClient14ObservableTypeP", "subscribe"]
+depends-nominal:
+- "9BleClient17GroupedObservableV"
+- !private "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1ccae5d3fd8c1176da8397e000b943b9"

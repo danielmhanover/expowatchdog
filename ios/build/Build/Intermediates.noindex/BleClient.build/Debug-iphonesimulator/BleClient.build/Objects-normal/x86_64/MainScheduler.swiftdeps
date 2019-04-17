@@ -1,0 +1,275 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainScheduler"
+provides-nominal:
+- "9BleClient13MainSchedulerC"
+provides-member:
+- ["9BleClient13MainSchedulerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "AtomicDecrement"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- "DispatchQueue"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MainScheduler"
+- "SerialDispatchQueueScheduler"
+- !private "SingleAssignmentDisposable"
+- "String"
+- !private "StringLiteralType"
+- !private "rxFatalError"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMain"]
+- ["s7CVarArgP", "main"]
+- !private ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "isDisposed"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "isMain"]
+- ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "isMain"]
+- ["So17OS_dispatch_queueC", "main"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "async"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isMain"]
+- ["SQ", "main"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "async"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isMain"]
+- ["SH", "main"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "AtomicDecrement"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "AtomicIncrement"]
+- ["9BleClient22ImmediateSchedulerTypeP", "DispatchQueue"]
+- ["9BleClient22ImmediateSchedulerTypeP", "MainScheduler"]
+- ["9BleClient22ImmediateSchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient22ImmediateSchedulerTypeP", ""]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "_mainQueue"]
+- ["9BleClient22ImmediateSchedulerTypeP", "init"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "numberEnqueued"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "rxFatalError"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["9BleClient13MainSchedulerC", "AtomicDecrement"]
+- !private ["9BleClient13MainSchedulerC", "AtomicIncrement"]
+- ["9BleClient13MainSchedulerC", "AtomicInt"]
+- ["9BleClient13MainSchedulerC", "DispatchQueue"]
+- ["9BleClient13MainSchedulerC", "Disposable"]
+- ["9BleClient13MainSchedulerC", "MainScheduler"]
+- ["9BleClient13MainSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient13MainSchedulerC", "SingleAssignmentDisposable"]
+- ["9BleClient13MainSchedulerC", "String"]
+- !private ["9BleClient13MainSchedulerC", "_mainQueue"]
+- ["9BleClient13MainSchedulerC", "asyncInstance"]
+- ["9BleClient13MainSchedulerC", "deinit"]
+- ["9BleClient13MainSchedulerC", "ensureExecutingOnScheduler"]
+- ["9BleClient13MainSchedulerC", "init"]
+- ["9BleClient13MainSchedulerC", "instance"]
+- ["9BleClient13MainSchedulerC", "numberEnqueued"]
+- !private ["9BleClient13MainSchedulerC", "rxFatalError"]
+- ["9BleClient13MainSchedulerC", "scheduleInternal"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "isMain"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "isMain"]
+- ["So8NSObjectP", "main"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "isMain"]
+- ["So9OS_objectC", "main"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "async"]
+- !private ["9BleClient18ReactiveCompatibleP", "isMain"]
+- ["9BleClient18ReactiveCompatibleP", "main"]
+- !private ["9BleClient13SchedulerTypeP", "AtomicDecrement"]
+- !private ["9BleClient13SchedulerTypeP", "AtomicIncrement"]
+- ["9BleClient13SchedulerTypeP", "DispatchQueue"]
+- ["9BleClient13SchedulerTypeP", "MainScheduler"]
+- ["9BleClient13SchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient13SchedulerTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient13SchedulerTypeP", ""]
+- !private ["9BleClient13SchedulerTypeP", "_mainQueue"]
+- ["9BleClient13SchedulerTypeP", "init"]
+- !private ["9BleClient13SchedulerTypeP", "numberEnqueued"]
+- !private ["9BleClient13SchedulerTypeP", "rxFatalError"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicDecrement"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicIncrement"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "AtomicInt"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "DispatchQueue"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "Disposable"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "MainScheduler"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "SingleAssignmentDisposable"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "String"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", ""]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "_mainQueue"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "asyncInstance"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "init"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "instance"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "numberEnqueued"]
+- !private ["9BleClient28SerialDispatchQueueSchedulerC", "rxFatalError"]
+- ["9BleClient28SerialDispatchQueueSchedulerC", "scheduleInternal"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "9BleClient10CancelableP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "9BleClient10DisposableP"
+- !private "9BleClient11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "9BleClient22ImmediateSchedulerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "9BleClient13MainSchedulerC"
+- !private "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sm"
+- "9BleClient18ReactiveCompatibleP"
+- "9BleClient13SchedulerTypeP"
+- !private "ST"
+- "9BleClient28SerialDispatchQueueSchedulerC"
+- !private "9BleClient26SingleAssignmentDisposableC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2f7baca7ec564ae6b94dea2a14db660c"

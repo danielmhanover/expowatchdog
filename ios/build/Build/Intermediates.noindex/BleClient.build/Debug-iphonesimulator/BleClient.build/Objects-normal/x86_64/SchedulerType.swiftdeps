@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTimeInterval"
+- "RxTime"
+- "SchedulerType"
+provides-nominal:
+- "9BleClient13SchedulerTypeP"
+provides-member:
+- ["9BleClient13SchedulerTypeP", ""]
+- ["9BleClient13SchedulerTypeP", "schedulePeriodic"]
+- ["9BleClient13SchedulerTypeP", "scheduleRecursive"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyRecursiveScheduler"
+- "Date"
+- "Disposable"
+- !private "Disposables"
+- "ImmediateSchedulerType"
+- "RxTime"
+- "RxTimeInterval"
+- !private "SchedulePeriodicRecursive"
+- "SchedulerType"
+- "TimeInterval"
+depends-member:
+- !private ["9BleClient21AnyRecursiveSchedulerC", "dispose"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "init"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "schedule"]
+- !private ["9BleClient11DisposablesV", "create"]
+- ["9BleClient22ImmediateSchedulerTypeP", "AnyRecursiveScheduler"]
+- ["9BleClient22ImmediateSchedulerTypeP", "Disposable"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "Disposables"]
+- ["9BleClient22ImmediateSchedulerTypeP", "RxTime"]
+- ["9BleClient22ImmediateSchedulerTypeP", "RxTimeInterval"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "SchedulePeriodicRecursive"]
+- ["9BleClient22ImmediateSchedulerTypeP", ""]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "init"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "start"]
+- ["9BleClient13SchedulerTypeP", "AnyRecursiveScheduler"]
+- ["9BleClient13SchedulerTypeP", "Disposable"]
+- !private ["9BleClient13SchedulerTypeP", "Disposables"]
+- ["9BleClient13SchedulerTypeP", "RxTime"]
+- ["9BleClient13SchedulerTypeP", "RxTimeInterval"]
+- !private ["9BleClient13SchedulerTypeP", "SchedulePeriodicRecursive"]
+- ["9BleClient13SchedulerTypeP", "now"]
+- ["9BleClient13SchedulerTypeP", "schedulePeriodic"]
+- ["9BleClient13SchedulerTypeP", "scheduleRecursive"]
+- ["9BleClient13SchedulerTypeP", "scheduleRelative"]
+depends-nominal:
+- !private "9BleClient21AnyRecursiveSchedulerC"
+- !private "9BleClient11DisposablesV"
+- "9BleClient22ImmediateSchedulerTypeP"
+- !private "9BleClient25SchedulePeriodicRecursiveC"
+- "9BleClient13SchedulerTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e38979b856e476a65264953c67d59678"

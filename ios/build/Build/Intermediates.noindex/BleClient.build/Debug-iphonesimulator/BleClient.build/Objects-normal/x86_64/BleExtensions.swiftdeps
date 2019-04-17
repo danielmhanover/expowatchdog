@@ -1,0 +1,519 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9BleClient13RestoredStateV", ""]
+- ["9BleClient17ScannedPeripheralC", ""]
+- ["9BleClient10PeripheralC", ""]
+- ["9BleClient7ServiceC", ""]
+- ["9BleClient14CharacteristicC", ""]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", ""]
+- ["9BleClient14BluetoothStateO", ""]
+- ["9BleClient13RestoredStateV", "asJSObject"]
+- ["9BleClient17ScannedPeripheralC", "mtu"]
+- ["9BleClient17ScannedPeripheralC", "asJSObject"]
+- ["9BleClient10PeripheralC", "mtu"]
+- ["9BleClient10PeripheralC", "asJSObject"]
+- ["9BleClient7ServiceC", "jsIdentifier"]
+- ["9BleClient7ServiceC", "asJSObject"]
+- ["9BleClient14CharacteristicC", "jsIdentifier"]
+- ["9BleClient14CharacteristicC", "asJSObject"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "asJSObject"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "init"]
+- ["9BleClient14BluetoothStateO", "asJSObject"]
+- ["9BleClient14CharacteristicC", "valueBase64"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "+"
+- !private "-"
+- !private "<<"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "BluetoothState"
+- !private "CBUUID"
+- "CastingPrecedence"
+- "Characteristic"
+- "Double"
+- "Int"
+- !private "NSNull"
+- "Peripheral"
+- "RestoredState"
+- "RxBluetoothKitLog"
+- "ScannedPeripheral"
+- "Service"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt64"
+- !private "~="
+depends-member:
+- !private ["9BleClient17AdvertisementDataV", "isConnectable"]
+- !private ["9BleClient17AdvertisementDataV", "localName"]
+- !private ["9BleClient17AdvertisementDataV", "manufacturerData"]
+- !private ["9BleClient17AdvertisementDataV", "overflowServiceUUIDs"]
+- !private ["9BleClient17AdvertisementDataV", "serviceData"]
+- !private ["9BleClient17AdvertisementDataV", "serviceUUIDs"]
+- !private ["9BleClient17AdvertisementDataV", "solicitedServiceUUIDs"]
+- !private ["9BleClient17AdvertisementDataV", "txPowerLevel"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "base64"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- ["9BleClient14BluetoothStateO", "asJSObject"]
+- ["9BleClient14BluetoothStateO", "poweredOff"]
+- ["9BleClient14BluetoothStateO", "poweredOn"]
+- ["9BleClient14BluetoothStateO", "resetting"]
+- ["9BleClient14BluetoothStateO", "unauthorized"]
+- ["9BleClient14BluetoothStateO", "unknown"]
+- ["9BleClient14BluetoothStateO", "unsupported"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So26CBCharacteristicPropertiesV", "contains"]
+- !private ["So26CBCharacteristicPropertiesV", "indicate"]
+- !private ["So26CBCharacteristicPropertiesV", "notify"]
+- !private ["So26CBCharacteristicPropertiesV", "read"]
+- !private ["So26CBCharacteristicPropertiesV", "write"]
+- !private ["So26CBCharacteristicPropertiesV", "writeWithoutResponse"]
+- !private ["So25CBCharacteristicWriteTypeV", "withoutResponse"]
+- !private ["So6CBUUIDC", "fullUUIDString"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "fullUUIDString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- ["9BleClient14CharacteristicC", "AnyHashable"]
+- ["9BleClient14CharacteristicC", "Double"]
+- ["9BleClient14CharacteristicC", "String"]
+- !private ["9BleClient14CharacteristicC", "UInt64"]
+- ["9BleClient14CharacteristicC", "asJSObject"]
+- !private ["9BleClient14CharacteristicC", "deinit"]
+- !private ["9BleClient14CharacteristicC", "isNotifying"]
+- ["9BleClient14CharacteristicC", "jsIdentifier"]
+- !private ["9BleClient14CharacteristicC", "objectId"]
+- !private ["9BleClient14CharacteristicC", "properties"]
+- !private ["9BleClient14CharacteristicC", "service"]
+- !private ["9BleClient14CharacteristicC", "uuid"]
+- !private ["9BleClient14CharacteristicC", "value"]
+- ["9BleClient14CharacteristicC", "valueBase64"]
+- !private ["Sl", "base64"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "debug"]
+- ["SL", "error"]
+- ["SL", "info"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "none"]
+- ["SL", "verbose"]
+- ["SL", "warning"]
+- !private ["s28CustomDebugStringConvertibleP", "base64"]
+- !private ["s28CustomDebugStringConvertibleP", "fullUUIDString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "base64"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "base64"]
+- !private ["s23CustomStringConvertibleP", "fullUUIDString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["10Foundation4DataV", "base64"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "base64"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uuidString"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "base64"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "NSNull"]
+- !private ["SQ", "UInt64"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "asJSObject"]
+- !private ["SQ", "base64"]
+- !private ["SQ", "contains"]
+- ["SQ", "debug"]
+- ["SQ", "error"]
+- !private ["SQ", "fullUUIDString"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "indicate"]
+- ["SQ", "info"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isNotifying"]
+- !private ["SQ", "isPrimary"]
+- !private ["SQ", "jsIdentifier"]
+- !private ["SQ", "map"]
+- !private ["SQ", "maximumWriteValueLength"]
+- !private ["SQ", "mtu"]
+- !private ["SQ", "name"]
+- ["SQ", "none"]
+- !private ["SQ", "notify"]
+- !private ["SQ", "objectId"]
+- !private ["SQ", "peripheral"]
+- ["SQ", "poweredOff"]
+- ["SQ", "poweredOn"]
+- !private ["SQ", "properties"]
+- !private ["SQ", "read"]
+- ["SQ", "resetting"]
+- !private ["SQ", "service"]
+- !private ["SQ", "subscript"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unknown"]
+- ["SQ", "unsupported"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "value"]
+- !private ["SQ", "valueBase64"]
+- ["SQ", "verbose"]
+- ["SQ", "warning"]
+- !private ["SQ", "withoutResponse"]
+- !private ["SQ", "write"]
+- !private ["SQ", "writeWithoutResponse"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "indicate"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "notify"]
+- !private ["s25ExpressibleByArrayLiteralP", "read"]
+- !private ["s25ExpressibleByArrayLiteralP", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "writeWithoutResponse"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "base64"]
+- ["SH", "debug"]
+- ["SH", "error"]
+- !private ["SH", "fullUUIDString"]
+- ["SH", "info"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- ["SH", "poweredOff"]
+- ["SH", "poweredOn"]
+- ["SH", "resetting"]
+- !private ["SH", "subscript"]
+- ["SH", "unauthorized"]
+- ["SH", "unknown"]
+- ["SH", "unsupported"]
+- !private ["SH", "uuidString"]
+- ["SH", "verbose"]
+- ["SH", "warning"]
+- !private ["SH", "withoutResponse"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "String"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "asJSObject"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "debug"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "error"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "info"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "init"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "none"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "verbose"]
+- ["9BleClient17RxBluetoothKitLogC0F5LevelO", "warning"]
+- !private ["9BleClient8LoggableP", "base64"]
+- !private ["9BleClient8LoggableP", "fullUUIDString"]
+- ["9BleClient8LoggableP", "poweredOff"]
+- ["9BleClient8LoggableP", "poweredOn"]
+- ["9BleClient8LoggableP", "resetting"]
+- ["9BleClient8LoggableP", "unauthorized"]
+- ["9BleClient8LoggableP", "unknown"]
+- ["9BleClient8LoggableP", "unsupported"]
+- !private ["9BleClient8LoggableP", "uuidString"]
+- !private ["9BleClient8LoggableP", "withoutResponse"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "base64"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "fullUUIDString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSObjectC", "fullUUIDString"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "fullUUIDString"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "indicate"]
+- !private ["s9OptionSetP", "notify"]
+- !private ["s9OptionSetP", "read"]
+- !private ["s9OptionSetP", "write"]
+- !private ["s9OptionSetP", "writeWithoutResponse"]
+- ["9BleClient10PeripheralC", "AnyHashable"]
+- ["9BleClient10PeripheralC", "Int"]
+- !private ["9BleClient10PeripheralC", "NSNull"]
+- ["9BleClient10PeripheralC", "asJSObject"]
+- !private ["9BleClient10PeripheralC", "identifier"]
+- !private ["9BleClient10PeripheralC", "maximumWriteValueLength"]
+- ["9BleClient10PeripheralC", "mtu"]
+- !private ["9BleClient10PeripheralC", "name"]
+- !private ["Sk", "base64"]
+- !private ["Sk", "map"]
+- !private ["Sm", "base64"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["SY", "contains"]
+- ["SY", "debug"]
+- ["SY", "error"]
+- !private ["SY", "indicate"]
+- ["SY", "info"]
+- ["SY", "none"]
+- !private ["SY", "notify"]
+- ["SY", "poweredOff"]
+- ["SY", "poweredOn"]
+- !private ["SY", "read"]
+- ["SY", "resetting"]
+- ["SY", "unauthorized"]
+- ["SY", "unknown"]
+- ["SY", "unsupported"]
+- ["SY", "verbose"]
+- ["SY", "warning"]
+- !private ["SY", "withoutResponse"]
+- !private ["SY", "write"]
+- !private ["SY", "writeWithoutResponse"]
+- !private ["9BleClient18ReactiveCompatibleP", "fullUUIDString"]
+- !private ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "base64"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["9BleClient13RestoredStateV", "AnyHashable"]
+- ["9BleClient13RestoredStateV", "asJSObject"]
+- !private ["9BleClient13RestoredStateV", "peripherals"]
+- ["9BleClient17RxBluetoothKitLogC", "LogLevel"]
+- ["9BleClient17ScannedPeripheralC", "AnyHashable"]
+- !private ["9BleClient17ScannedPeripheralC", "CBUUID"]
+- ["9BleClient17ScannedPeripheralC", "Int"]
+- !private ["9BleClient17ScannedPeripheralC", "String"]
+- !private ["9BleClient17ScannedPeripheralC", "advertisementData"]
+- ["9BleClient17ScannedPeripheralC", "asJSObject"]
+- ["9BleClient17ScannedPeripheralC", "mtu"]
+- !private ["9BleClient17ScannedPeripheralC", "peripheral"]
+- !private ["9BleClient17ScannedPeripheralC", "rssi"]
+- !private ["ST", "base64"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["9BleClient7ServiceC", "AnyHashable"]
+- ["9BleClient7ServiceC", "Double"]
+- !private ["9BleClient7ServiceC", "UInt64"]
+- ["9BleClient7ServiceC", "asJSObject"]
+- !private ["9BleClient7ServiceC", "deinit"]
+- !private ["9BleClient7ServiceC", "isPrimary"]
+- ["9BleClient7ServiceC", "jsIdentifier"]
+- !private ["9BleClient7ServiceC", "objectId"]
+- !private ["9BleClient7ServiceC", "peripheral"]
+- !private ["9BleClient7ServiceC", "uuid"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "indicate"]
+- !private ["s10SetAlgebraP", "notify"]
+- !private ["s10SetAlgebraP", "read"]
+- !private ["s10SetAlgebraP", "write"]
+- !private ["s10SetAlgebraP", "writeWithoutResponse"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["9BleClient16UUIDIdentifiableP", "Double"]
+- !private ["9BleClient16UUIDIdentifiableP", "UInt64"]
+- !private ["9BleClient16UUIDIdentifiableP", "isNotifying"]
+- !private ["9BleClient16UUIDIdentifiableP", "isPrimary"]
+- !private ["9BleClient16UUIDIdentifiableP", "jsIdentifier"]
+- !private ["9BleClient16UUIDIdentifiableP", "objectId"]
+- !private ["9BleClient16UUIDIdentifiableP", "peripheral"]
+- !private ["9BleClient16UUIDIdentifiableP", "properties"]
+- !private ["9BleClient16UUIDIdentifiableP", "service"]
+- !private ["9BleClient16UUIDIdentifiableP", "uuid"]
+- !private ["9BleClient16UUIDIdentifiableP", "value"]
+- !private ["9BleClient16UUIDIdentifiableP", "valueBase64"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fullUUIDString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "base64"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9BleClient17AdvertisementDataV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- "9BleClient14BluetoothStateO"
+- !private "Sb"
+- !private "So26CBCharacteristicPropertiesV"
+- !private "So25CBCharacteristicWriteTypeV"
+- !private "So6CBUUIDC"
+- !private "s7CVarArgP"
+- "9BleClient14CharacteristicC"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- "9BleClient17RxBluetoothKitLogC0F5LevelO"
+- "9BleClient8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSNullC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- "9BleClient10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "9BleClient18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9BleClient13RestoredStateV"
+- "9BleClient17RxBluetoothKitLogC"
+- "9BleClient17ScannedPeripheralC"
+- !private "ST"
+- "9BleClient7ServiceC"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt64V"
+- !private "10Foundation4UUIDV"
+- !private "9BleClient16UUIDIdentifiableP"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27313b50218351d8e17fa5a454f980ae"

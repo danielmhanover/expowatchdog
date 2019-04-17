@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCBDescriptor"
+provides-nominal:
+- "9BleClient14RxCBDescriptorC"
+provides-member:
+- ["9BleClient14RxCBDescriptorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "==="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CBDescriptor"
+- "CBUUID"
+- "CastingPrecedence"
+- !private "ObjectIdentifier"
+- !private "RxCBCharacteristic"
+- "RxCBDescriptor"
+- "RxCharacteristicType"
+- "RxDescriptorType"
+- "UInt"
+depends-member:
+- !private ["Sz", "init"]
+- !private ["So11CBAttributeC", "characteristic"]
+- !private ["So11CBAttributeC", "uuid"]
+- !private ["So11CBAttributeC", "value"]
+- !private ["So12CBDescriptorC", "characteristic"]
+- !private ["So12CBDescriptorC", "uuid"]
+- !private ["So12CBDescriptorC", "value"]
+- !private ["s7CVarArgP", "characteristic"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "uuid"]
+- !private ["s7CVarArgP", "value"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristic"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "characteristic"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "init"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "characteristic"]
+- !private ["SH", "init"]
+- !private ["SH", "uuid"]
+- !private ["SH", "value"]
+- !private ["9BleClient8LoggableP", "characteristic"]
+- !private ["9BleClient8LoggableP", "uuid"]
+- !private ["9BleClient8LoggableP", "value"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSObjectC", "characteristic"]
+- !private ["So8NSObjectC", "uuid"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "characteristic"]
+- !private ["So8NSObjectP", "uuid"]
+- !private ["So8NSObjectP", "value"]
+- !private ["Sj", "init"]
+- !private ["SO", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "characteristic"]
+- !private ["9BleClient18ReactiveCompatibleP", "uuid"]
+- !private ["9BleClient18ReactiveCompatibleP", "value"]
+- !private ["9BleClient18RxCBCharacteristicC", "deinit"]
+- !private ["9BleClient18RxCBCharacteristicC", "init"]
+- ["9BleClient14RxCBDescriptorC", "Bool"]
+- ["9BleClient14RxCBDescriptorC", "CBDescriptor"]
+- ["9BleClient14RxCBDescriptorC", "CBUUID"]
+- !private ["9BleClient14RxCBDescriptorC", "ObjectIdentifier"]
+- !private ["9BleClient14RxCBDescriptorC", "RxCBCharacteristic"]
+- !private ["9BleClient14RxCBDescriptorC", "RxCBDescriptor"]
+- ["9BleClient14RxCBDescriptorC", "RxCharacteristicType"]
+- ["9BleClient14RxCBDescriptorC", "RxDescriptorType"]
+- ["9BleClient14RxCBDescriptorC", "UInt"]
+- ["9BleClient14RxCBDescriptorC", "characteristic"]
+- ["9BleClient14RxCBDescriptorC", "deinit"]
+- ["9BleClient14RxCBDescriptorC", "descriptor"]
+- ["9BleClient14RxCBDescriptorC", "init"]
+- ["9BleClient14RxCBDescriptorC", "isEqualTo"]
+- ["9BleClient14RxCBDescriptorC", "objectId"]
+- ["9BleClient14RxCBDescriptorC", "uuid"]
+- ["9BleClient14RxCBDescriptorC", "value"]
+- !private ["9BleClient20RxCharacteristicTypeP", "init"]
+- !private ["9BleClient16RxDescriptorTypeP", "ObjectIdentifier"]
+- !private ["9BleClient16RxDescriptorTypeP", "RxCBCharacteristic"]
+- !private ["9BleClient16RxDescriptorTypeP", "UInt"]
+- ["9BleClient16RxDescriptorTypeP", ""]
+- ["9BleClient16RxDescriptorTypeP", "characteristic"]
+- !private ["9BleClient16RxDescriptorTypeP", "descriptor"]
+- ["9BleClient16RxDescriptorTypeP", "isEqualTo"]
+- ["9BleClient16RxDescriptorTypeP", "objectId"]
+- ["9BleClient16RxDescriptorTypeP", "uuid"]
+- ["9BleClient16RxDescriptorTypeP", "value"]
+- !private ["Sx", "init"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sz"
+- !private "So11CBAttributeC"
+- !private "So12CBDescriptorC"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "9BleClient8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "SO"
+- !private "9BleClient18ReactiveCompatibleP"
+- !private "9BleClient18RxCBCharacteristicC"
+- "9BleClient14RxCBDescriptorC"
+- !private "9BleClient20RxCharacteristicTypeP"
+- "9BleClient16RxDescriptorTypeP"
+- !private "Sx"
+- !private "Su"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8eda441c1a85b66b8cbe47e6f96df336"

@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MaybeTrait"
+- "Maybe"
+- "MaybeEvent"
+provides-nominal:
+- "9BleClient10MaybeTraitO"
+- "9BleClient10MaybeEventO"
+provides-member:
+- ["9BleClient10MaybeTraitO", ""]
+- ["9BleClient10MaybeEventO", ""]
+- ["9BleClient21PrimitiveSequenceTypeP", ""]
+- ["9BleClient21PrimitiveSequenceTypeP", "MaybeObserver"]
+- ["9BleClient21PrimitiveSequenceTypeP", "create"]
+- ["9BleClient21PrimitiveSequenceTypeP", "subscribe"]
+- ["9BleClient21PrimitiveSequenceTypeP", "subscribe"]
+- ["9BleClient21PrimitiveSequenceTypeP", "just"]
+- ["9BleClient21PrimitiveSequenceTypeP", "just"]
+- ["9BleClient21PrimitiveSequenceTypeP", "error"]
+- ["9BleClient21PrimitiveSequenceTypeP", "never"]
+- ["9BleClient21PrimitiveSequenceTypeP", "empty"]
+- ["9BleClient21PrimitiveSequenceTypeP", "do"]
+- ["9BleClient21PrimitiveSequenceTypeP", "filter"]
+- ["9BleClient21PrimitiveSequenceTypeP", "map"]
+- ["9BleClient21PrimitiveSequenceTypeP", "flatMap"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ifEmpty"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ifEmpty"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ifEmpty"]
+- ["9BleClient21PrimitiveSequenceTypeP", "catchErrorJustReturn"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Disposable"
+- !private "Hooks"
+- "ImmediateSchedulerType"
+- "Maybe"
+- "MaybeEvent"
+- "MaybeTrait"
+- !private "Observable"
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+- "Single"
+- !private "String"
+- "Swift"
+- "Void"
+depends-member:
+- !private ["9BleClient11AnyObserverV", "deinit"]
+- !private ["9BleClient11AnyObserverV", "on"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "init"]
+- !private ["9BleClient5EventO", "completed"]
+- !private ["9BleClient5EventO", "error"]
+- !private ["9BleClient5EventO", "next"]
+- !private ["9BleClient16EventConvertibleP", "completed"]
+- !private ["9BleClient16EventConvertibleP", "error"]
+- !private ["9BleClient16EventConvertibleP", "next"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["9BleClient5HooksO", "defaultErrorHandler"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["9BleClient10MaybeEventO", "Element"]
+- ["9BleClient10MaybeEventO", "Swift"]
+- ["9BleClient10MaybeEventO", "completed"]
+- ["9BleClient10MaybeEventO", "error"]
+- ["9BleClient10MaybeEventO", "success"]
+- !private ["SM", "init"]
+- !private ["9BleClient10ObservableC", "catchErrorJustReturn"]
+- !private ["9BleClient10ObservableC", "create"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- !private ["9BleClient10ObservableC", "do"]
+- !private ["9BleClient10ObservableC", "empty"]
+- !private ["9BleClient10ObservableC", "error"]
+- !private ["9BleClient10ObservableC", "filter"]
+- !private ["9BleClient10ObservableC", "flatMap"]
+- !private ["9BleClient10ObservableC", "ifEmpty"]
+- !private ["9BleClient10ObservableC", "just"]
+- !private ["9BleClient10ObservableC", "map"]
+- !private ["9BleClient10ObservableC", "never"]
+- !private ["9BleClient10ObservableC", "subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "catchErrorJustReturn"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "create"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "do"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "empty"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "error"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "filter"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "flatMap"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ifEmpty"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "just"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "map"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "never"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "primitiveSequence"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "source"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- !private ["9BleClient14ObservableTypeP", "catchErrorJustReturn"]
+- !private ["9BleClient14ObservableTypeP", "create"]
+- !private ["9BleClient14ObservableTypeP", "do"]
+- !private ["9BleClient14ObservableTypeP", "empty"]
+- !private ["9BleClient14ObservableTypeP", "error"]
+- !private ["9BleClient14ObservableTypeP", "filter"]
+- !private ["9BleClient14ObservableTypeP", "flatMap"]
+- !private ["9BleClient14ObservableTypeP", "ifEmpty"]
+- !private ["9BleClient14ObservableTypeP", "just"]
+- !private ["9BleClient14ObservableTypeP", "map"]
+- !private ["9BleClient14ObservableTypeP", "never"]
+- !private ["9BleClient14ObservableTypeP", "subscribe"]
+- !private ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient17PrimitiveSequenceV", "asObservable"]
+- !private ["9BleClient17PrimitiveSequenceV", "deinit"]
+- !private ["9BleClient17PrimitiveSequenceV", "init"]
+- !private ["9BleClient17PrimitiveSequenceV", "primitiveSequence"]
+- !private ["9BleClient17PrimitiveSequenceV", "source"]
+- !private ["9BleClient17PrimitiveSequenceV", "subscribe"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Bool"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Disposable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ElementType"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "Hooks"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ImmediateSchedulerType"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Maybe"]
+- ["9BleClient21PrimitiveSequenceTypeP", "MaybeEvent"]
+- ["9BleClient21PrimitiveSequenceTypeP", "MaybeObserver"]
+- ["9BleClient21PrimitiveSequenceTypeP", "MaybeTrait"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "Observable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "PrimitiveSequence"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Single"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "String"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Swift"]
+- ["9BleClient21PrimitiveSequenceTypeP", "TraitType"]
+- ["9BleClient21PrimitiveSequenceTypeP", "Void"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "asObservable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "catchErrorJustReturn"]
+- ["9BleClient21PrimitiveSequenceTypeP", "create"]
+- ["9BleClient21PrimitiveSequenceTypeP", "do"]
+- ["9BleClient21PrimitiveSequenceTypeP", "empty"]
+- ["9BleClient21PrimitiveSequenceTypeP", "error"]
+- ["9BleClient21PrimitiveSequenceTypeP", "filter"]
+- ["9BleClient21PrimitiveSequenceTypeP", "flatMap"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ifEmpty"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "init"]
+- ["9BleClient21PrimitiveSequenceTypeP", "just"]
+- ["9BleClient21PrimitiveSequenceTypeP", "map"]
+- ["9BleClient21PrimitiveSequenceTypeP", "never"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "primitiveSequence"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "source"]
+- ["9BleClient21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "9BleClient11AnyObserverV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "9BleClient5EventO"
+- !private "9BleClient16EventConvertibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "9BleClient5HooksO"
+- !private "s25LosslessStringConvertibleP"
+- "9BleClient10MaybeEventO"
+- !private "SM"
+- !private "9BleClient10ObservableC"
+- !private "9BleClient25ObservableConvertibleTypeP"
+- !private "9BleClient14ObservableTypeP"
+- !private "9BleClient12ObserverTypeP"
+- !private "9BleClient17PrimitiveSequenceV"
+- "9BleClient21PrimitiveSequenceTypeP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "641fa5d9d0ac1673f6138acfc565d32f"

@@ -21,25 +21,25 @@ export interface IPulse {
     treatment: firebase.firestore.DocumentReference
 }
 
-const firestore = firebase.firestore();
+export const firestore = firebase.firestore();
 
 export const database = firebase.database()
 // const settings = { timestampsInSnapshots: true};
 // firestore.settings(settings);
 
-export const pulseObservable: Rx.Observable<IPulse[]> = Rx.Observable.create((observer: Rx.Observer<IPulse[]>) => {
-    firebase.firestore().collection("pulse").orderBy("timestamp", "desc").limit(100).onSnapshot((snapshot) => {
-        // console.log("Read " + snapshot.docs.length + " documents")
-        const pulses = snapshot.docs
-        const data = (pulses.map((pulse) => {
-            return pulse.data()
-        }) as IPulse[]).sort((a, b) => {
-            // console.log(a.timestamp.toDate().toLocaleTimeString())
-            return a.timestamp.toMillis() - b.timestamp.toMillis()
-        })
-        observer.next(data)
-    })
-})
+// export const pulseObservable: Rx.Observable<IPulse[]> = Rx.Observable.create((observer: Rx.Observer<IPulse[]>) => {
+//     firebase.firestore().collection("pulse").orderBy("timestamp", "desc").onSnapshot((snapshot) => {
+//         // console.log("Read " + snapshot.docs.length + " documents")
+//         const pulses = snapshot.docs
+//         const data = (pulses.map((pulse) => {
+//             return pulse.data()
+//         }) as IPulse[]).sort((a, b) => {
+//             // console.log(a.timestamp.toDate().toLocaleTimeString())
+//             return a.timestamp.toMillis() - b.timestamp.toMillis()
+//         })
+//         observer.next(data)
+//     })
+// })
 
 type IWearing = {
     wearing: number,
@@ -48,7 +48,7 @@ type IWearing = {
 }
 
 export const pulseHistorical: Rx.Observable<IWearing[]> = Rx.Observable.create((observer: Rx.Observer<IWearing[]>) => {
-    firebase.firestore().collection("pulse").orderBy("timestamp", "desc").limit(1000).onSnapshot((snapshot) => {
+    firebase.firestore().collection("pulse").orderBy("timestamp", "desc").limit(5000).onSnapshot((snapshot) => {
         const pulses = snapshot.docs
         const data = (pulses.map((pulse) => {
             return pulse.data()

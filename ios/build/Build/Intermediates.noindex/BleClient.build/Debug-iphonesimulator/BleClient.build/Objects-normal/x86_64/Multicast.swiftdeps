@@ -1,0 +1,536 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectableObservable"
+provides-nominal:
+- "9BleClient21ConnectableObservableC"
+provides-member:
+- ["9BleClient21ConnectableObservableC", ""]
+- ["9BleClient14ObservableTypeP", ""]
+- ["9BleClient25ConnectableObservableTypeP", ""]
+- ["9BleClient14ObservableTypeP", "multicast"]
+- ["9BleClient14ObservableTypeP", "publish"]
+- ["9BleClient14ObservableTypeP", "replay"]
+- ["9BleClient14ObservableTypeP", "replayAll"]
+- ["9BleClient25ConnectableObservableTypeP", "refCount"]
+- ["9BleClient14ObservableTypeP", "multicast"]
+- ["9BleClient14ObservableTypeP", "multicast"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&+"
+- !private "+"
+- !private "-"
+- !private "=="
+- !private "==="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Cancelable"
+- "CastingPrecedence"
+- "ConnectableObservable"
+- "ConnectableObservableAdapter"
+- "ConnectableObservableType"
+- "Connection"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- "FloatLiteralType"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- "Multicast"
+- !private "MulticastSink"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "Producer"
+- !private "PublishSubject"
+- "RecursiveLock"
+- "RefCount"
+- !private "RefCountSink"
+- !private "ReplaySubject"
+- !private "SingleAssignmentDisposable"
+- "Sink"
+- !private "StringLiteralType"
+- "SubjectType"
+- !private "rxAbstractMethod"
+- !private "rxFatalError"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "calculateLocked"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "setDisposable"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["9BleClient21ConnectableObservableC", "Connection"]
+- ["9BleClient21ConnectableObservableC", "ConnectionType"]
+- ["9BleClient21ConnectableObservableC", "Disposable"]
+- ["9BleClient21ConnectableObservableC", "Observable"]
+- ["9BleClient21ConnectableObservableC", "ObserverType"]
+- ["9BleClient21ConnectableObservableC", "RecursiveLock"]
+- ["9BleClient21ConnectableObservableC", "S"]
+- !private ["9BleClient21ConnectableObservableC", "SingleAssignmentDisposable"]
+- !private ["9BleClient21ConnectableObservableC", ""]
+- ["9BleClient21ConnectableObservableC", "_connection"]
+- ["9BleClient21ConnectableObservableC", "_lock"]
+- ["9BleClient21ConnectableObservableC", "_makeSubject"]
+- ["9BleClient21ConnectableObservableC", "_source"]
+- ["9BleClient21ConnectableObservableC", "_subject"]
+- ["9BleClient21ConnectableObservableC", "connect"]
+- ["9BleClient21ConnectableObservableC", "deinit"]
+- ["9BleClient21ConnectableObservableC", "init"]
+- ["9BleClient21ConnectableObservableC", "lazySubject"]
+- !private ["9BleClient21ConnectableObservableC", "rxAbstractMethod"]
+- ["9BleClient21ConnectableObservableC", "subscribe"]
+- !private ["9BleClient25ConnectableObservableTypeP", "Connection"]
+- ["9BleClient25ConnectableObservableTypeP", "E"]
+- ["9BleClient25ConnectableObservableTypeP", "Observable"]
+- ["9BleClient25ConnectableObservableTypeP", "RecursiveLock"]
+- !private ["9BleClient25ConnectableObservableTypeP", "RefCount"]
+- !private ["9BleClient25ConnectableObservableTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient25ConnectableObservableTypeP", ""]
+- !private ["9BleClient25ConnectableObservableTypeP", "_connection"]
+- !private ["9BleClient25ConnectableObservableTypeP", "_lock"]
+- !private ["9BleClient25ConnectableObservableTypeP", "_makeSubject"]
+- !private ["9BleClient25ConnectableObservableTypeP", "_source"]
+- !private ["9BleClient25ConnectableObservableTypeP", "_subject"]
+- ["9BleClient25ConnectableObservableTypeP", "connect"]
+- !private ["9BleClient25ConnectableObservableTypeP", "init"]
+- !private ["9BleClient25ConnectableObservableTypeP", "lazySubject"]
+- ["9BleClient25ConnectableObservableTypeP", "refCount"]
+- !private ["9BleClient25ConnectableObservableTypeP", "rxAbstractMethod"]
+- !private ["9BleClient25ConnectableObservableTypeP", "subscribe"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateLocked"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isStopEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "calculateLocked"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["9BleClient10DisposableP", "ConnectableObservableAdapter"]
+- !private ["9BleClient10DisposableP", "Disposables"]
+- ["9BleClient10DisposableP", "E"]
+- !private ["9BleClient10DisposableP", ""]
+- ["9BleClient10DisposableP", "_Default_E"]
+- !private ["9BleClient10DisposableP", "_connectionIdSnapshot"]
+- !private ["9BleClient10DisposableP", "_disposed"]
+- !private ["9BleClient10DisposableP", "_lock"]
+- !private ["9BleClient10DisposableP", "_parent"]
+- !private ["9BleClient10DisposableP", "_subjectObserver"]
+- !private ["9BleClient10DisposableP", "_subscription"]
+- !private ["9BleClient10DisposableP", "create"]
+- !private ["9BleClient10DisposableP", "createUnbounded"]
+- ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "disposed"]
+- !private ["9BleClient10DisposableP", "forwardOn"]
+- !private ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "on"]
+- !private ["9BleClient10DisposableP", "run"]
+- !private ["9BleClient10DisposableP", "rxFatalError"]
+- !private ["9BleClient10DisposableP", "setDisposable"]
+- !private ["9BleClient11DisposablesV", "create"]
+- !private ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "setDisposable"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "calculateLocked"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- ["9BleClient5EventO", "completed"]
+- ["9BleClient5EventO", "error"]
+- !private ["9BleClient5EventO", "isStopEvent"]
+- ["9BleClient5EventO", "next"]
+- ["9BleClient16EventConvertibleP", "completed"]
+- ["9BleClient16EventConvertibleP", "error"]
+- !private ["9BleClient16EventConvertibleP", "isStopEvent"]
+- ["9BleClient16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "calculateLocked"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- !private ["9BleClient4LockP", "calculateLocked"]
+- ["9BleClient4LockP", "init"]
+- !private ["9BleClient4LockP", "lock"]
+- !private ["9BleClient4LockP", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So9NSLockingP", "calculateLocked"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "calculateLocked"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", "calculateLocked"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "calculateLocked"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["9BleClient10ObservableC", "CO"]
+- ["9BleClient10ObservableC", "Cancelable"]
+- ["9BleClient10ObservableC", "Connection"]
+- ["9BleClient10ObservableC", "ConnectionType"]
+- ["9BleClient10ObservableC", "Disposable"]
+- ["9BleClient10ObservableC", "Int64"]
+- !private ["9BleClient10ObservableC", "MulticastSink"]
+- ["9BleClient10ObservableC", "Observable"]
+- ["9BleClient10ObservableC", "ObserverType"]
+- ["9BleClient10ObservableC", "R"]
+- ["9BleClient10ObservableC", "RecursiveLock"]
+- !private ["9BleClient10ObservableC", "RefCountSink"]
+- ["9BleClient10ObservableC", "S"]
+- ["9BleClient10ObservableC", "SelectorType"]
+- !private ["9BleClient10ObservableC", "SingleAssignmentDisposable"]
+- ["9BleClient10ObservableC", "SubjectSelectorType"]
+- ["9BleClient10ObservableC", ""]
+- ["9BleClient10ObservableC", "_connectableSubscription"]
+- ["9BleClient10ObservableC", "_connection"]
+- ["9BleClient10ObservableC", "_connectionId"]
+- ["9BleClient10ObservableC", "_count"]
+- ["9BleClient10ObservableC", "_lock"]
+- ["9BleClient10ObservableC", "_makeSubject"]
+- ["9BleClient10ObservableC", "_selector"]
+- ["9BleClient10ObservableC", "_source"]
+- ["9BleClient10ObservableC", "_subject"]
+- ["9BleClient10ObservableC", "_subjectSelector"]
+- ["9BleClient10ObservableC", "connect"]
+- !private ["9BleClient10ObservableC", "create"]
+- !private ["9BleClient10ObservableC", "createUnbounded"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- ["9BleClient10ObservableC", "init"]
+- !private ["9BleClient10ObservableC", "init"]
+- ["9BleClient10ObservableC", "lazySubject"]
+- ["9BleClient10ObservableC", "run"]
+- !private ["9BleClient10ObservableC", "rxAbstractMethod"]
+- ["9BleClient10ObservableC", "subscribe"]
+- ["9BleClient25ObservableConvertibleTypeP", "ConnectableObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ConnectableObservableAdapter"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Connection"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", "Int"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Multicast"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "MulticastSink"]
+- ["9BleClient25ObservableConvertibleTypeP", "Observable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "PublishSubject"]
+- ["9BleClient25ObservableConvertibleTypeP", "RecursiveLock"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "RefCount"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "RefCountSink"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ReplaySubject"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient25ObservableConvertibleTypeP", "SubjectObserverType"]
+- ["9BleClient25ObservableConvertibleTypeP", "SubjectType"]
+- ["9BleClient25ObservableConvertibleTypeP", ""]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_connectableSubscription"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_connection"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_connectionId"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_count"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_lock"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_makeSubject"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_selector"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_source"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_subject"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_subjectSelector"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "asObserver"]
+- ["9BleClient25ObservableConvertibleTypeP", "connect"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "create"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "createUnbounded"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "lazySubject"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "multicast"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "rxAbstractMethod"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- ["9BleClient14ObservableTypeP", "ConnectableObservable"]
+- !private ["9BleClient14ObservableTypeP", "ConnectableObservableAdapter"]
+- !private ["9BleClient14ObservableTypeP", "Connection"]
+- ["9BleClient14ObservableTypeP", "E"]
+- ["9BleClient14ObservableTypeP", "Int"]
+- !private ["9BleClient14ObservableTypeP", "Multicast"]
+- !private ["9BleClient14ObservableTypeP", "MulticastSink"]
+- ["9BleClient14ObservableTypeP", "Observable"]
+- !private ["9BleClient14ObservableTypeP", "PublishSubject"]
+- ["9BleClient14ObservableTypeP", "RecursiveLock"]
+- !private ["9BleClient14ObservableTypeP", "RefCount"]
+- !private ["9BleClient14ObservableTypeP", "RefCountSink"]
+- !private ["9BleClient14ObservableTypeP", "ReplaySubject"]
+- !private ["9BleClient14ObservableTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient14ObservableTypeP", "SubjectObserverType"]
+- ["9BleClient14ObservableTypeP", "SubjectType"]
+- ["9BleClient14ObservableTypeP", ""]
+- !private ["9BleClient14ObservableTypeP", "_connectableSubscription"]
+- !private ["9BleClient14ObservableTypeP", "_connection"]
+- !private ["9BleClient14ObservableTypeP", "_connectionId"]
+- !private ["9BleClient14ObservableTypeP", "_count"]
+- !private ["9BleClient14ObservableTypeP", "_lock"]
+- !private ["9BleClient14ObservableTypeP", "_makeSubject"]
+- !private ["9BleClient14ObservableTypeP", "_selector"]
+- !private ["9BleClient14ObservableTypeP", "_source"]
+- !private ["9BleClient14ObservableTypeP", "_subject"]
+- !private ["9BleClient14ObservableTypeP", "_subjectSelector"]
+- !private ["9BleClient14ObservableTypeP", "asObservable"]
+- !private ["9BleClient14ObservableTypeP", "asObserver"]
+- ["9BleClient14ObservableTypeP", "connect"]
+- !private ["9BleClient14ObservableTypeP", "create"]
+- !private ["9BleClient14ObservableTypeP", "createUnbounded"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "lazySubject"]
+- ["9BleClient14ObservableTypeP", "multicast"]
+- ["9BleClient14ObservableTypeP", "publish"]
+- ["9BleClient14ObservableTypeP", "replay"]
+- ["9BleClient14ObservableTypeP", "replayAll"]
+- !private ["9BleClient14ObservableTypeP", "rxAbstractMethod"]
+- !private ["9BleClient14ObservableTypeP", "subscribe"]
+- !private ["9BleClient12ObserverTypeP", "ConnectableObservableAdapter"]
+- !private ["9BleClient12ObserverTypeP", "Disposables"]
+- ["9BleClient12ObserverTypeP", "E"]
+- !private ["9BleClient12ObserverTypeP", ""]
+- ["9BleClient12ObserverTypeP", "_Default_E"]
+- !private ["9BleClient12ObserverTypeP", "_connectionIdSnapshot"]
+- !private ["9BleClient12ObserverTypeP", "_disposed"]
+- !private ["9BleClient12ObserverTypeP", "_lock"]
+- !private ["9BleClient12ObserverTypeP", "_parent"]
+- !private ["9BleClient12ObserverTypeP", "_subjectObserver"]
+- !private ["9BleClient12ObserverTypeP", "_subscription"]
+- !private ["9BleClient12ObserverTypeP", "create"]
+- !private ["9BleClient12ObserverTypeP", "createUnbounded"]
+- ["9BleClient12ObserverTypeP", "dispose"]
+- !private ["9BleClient12ObserverTypeP", "disposed"]
+- !private ["9BleClient12ObserverTypeP", "forwardOn"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient12ObserverTypeP", "run"]
+- !private ["9BleClient12ObserverTypeP", "rxFatalError"]
+- ["9BleClient8ProducerC", "CO"]
+- ["9BleClient8ProducerC", "Cancelable"]
+- ["9BleClient8ProducerC", "Disposable"]
+- ["9BleClient8ProducerC", "Int64"]
+- !private ["9BleClient8ProducerC", "MulticastSink"]
+- ["9BleClient8ProducerC", "Observable"]
+- ["9BleClient8ProducerC", "ObserverType"]
+- ["9BleClient8ProducerC", "R"]
+- ["9BleClient8ProducerC", "RecursiveLock"]
+- !private ["9BleClient8ProducerC", "RefCountSink"]
+- ["9BleClient8ProducerC", "S"]
+- ["9BleClient8ProducerC", "SelectorType"]
+- ["9BleClient8ProducerC", "SubjectSelectorType"]
+- !private ["9BleClient8ProducerC", ""]
+- ["9BleClient8ProducerC", "_connectableSubscription"]
+- ["9BleClient8ProducerC", "_connectionId"]
+- ["9BleClient8ProducerC", "_count"]
+- ["9BleClient8ProducerC", "_lock"]
+- ["9BleClient8ProducerC", "_selector"]
+- ["9BleClient8ProducerC", "_source"]
+- ["9BleClient8ProducerC", "_subjectSelector"]
+- ["9BleClient8ProducerC", "init"]
+- ["9BleClient8ProducerC", "run"]
+- !private ["9BleClient14PublishSubjectC", "deinit"]
+- !private ["9BleClient14PublishSubjectC", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "calculateLocked"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "lock"]
+- !private ["9BleClient18ReactiveCompatibleP", "unlock"]
+- !private ["9BleClient13ReplaySubjectC", "create"]
+- !private ["9BleClient13ReplaySubjectC", "createUnbounded"]
+- !private ["9BleClient13ReplaySubjectC", "deinit"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+- ["9BleClient4SinkC", "CO"]
+- ["9BleClient4SinkC", "Cancelable"]
+- !private ["9BleClient4SinkC", "ConnectableObservableAdapter"]
+- ["9BleClient4SinkC", "Disposable"]
+- !private ["9BleClient4SinkC", "Disposables"]
+- ["9BleClient4SinkC", "E"]
+- ["9BleClient4SinkC", "Element"]
+- ["9BleClient4SinkC", "Event"]
+- ["9BleClient4SinkC", "Int64"]
+- ["9BleClient4SinkC", "Multicast"]
+- ["9BleClient4SinkC", "MutlicastType"]
+- ["9BleClient4SinkC", "O"]
+- ["9BleClient4SinkC", "Parent"]
+- ["9BleClient4SinkC", "RefCount"]
+- ["9BleClient4SinkC", "ResultType"]
+- ["9BleClient4SinkC", "S"]
+- !private ["9BleClient4SinkC", ""]
+- ["9BleClient4SinkC", "_Default_E"]
+- ["9BleClient4SinkC", "_connectionIdSnapshot"]
+- ["9BleClient4SinkC", "_parent"]
+- !private ["9BleClient4SinkC", "dispose"]
+- !private ["9BleClient4SinkC", "disposed"]
+- !private ["9BleClient4SinkC", "forwardOn"]
+- ["9BleClient4SinkC", "init"]
+- ["9BleClient4SinkC", "on"]
+- ["9BleClient4SinkC", "run"]
+- !private ["9BleClient4SinkC", "rxFatalError"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["9BleClient11SubjectTypeP", "E"]
+- ["9BleClient11SubjectTypeP", "SubjectObserverType"]
+- !private ["9BleClient11SubjectTypeP", "asObserver"]
+- !private ["9BleClient11SubjectTypeP", "create"]
+- !private ["9BleClient11SubjectTypeP", "createUnbounded"]
+- !private ["9BleClient11SubjectTypeP", "init"]
+- !private ["9BleClient11SubjectTypeP", "subscribe"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateLocked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "9BleClient10CancelableP"
+- !private "Sl"
+- !private "SL"
+- "9BleClient21ConnectableObservableC"
+- "9BleClient25ConnectableObservableTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "9BleClient10DisposableP"
+- !private "9BleClient11DisposablesV"
+- !private "9BleClient11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- "9BleClient5EventO"
+- "9BleClient16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "9BleClient4LockP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- "9BleClient12ObserverTypeP"
+- "9BleClient8ProducerC"
+- !private "9BleClient14PublishSubjectC"
+- !private "Sm"
+- "9BleClient18ReactiveCompatibleP"
+- !private "9BleClient13ReplaySubjectC"
+- !private "ST"
+- !private "9BleClient26SingleAssignmentDisposableC"
+- "9BleClient4SinkC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- "9BleClient11SubjectTypeP"
+- !private "9BleClient27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "22c00f19628975cf17332a0f35d92d83"

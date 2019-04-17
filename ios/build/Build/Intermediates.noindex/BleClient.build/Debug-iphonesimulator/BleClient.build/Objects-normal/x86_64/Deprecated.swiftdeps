@@ -1,0 +1,199 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Variable"
+provides-nominal:
+- "9BleClient8VariableC"
+provides-member:
+- ["9BleClient10ObservableC", ""]
+- ["9BleClient14ObservableTypeP", ""]
+- ["9BleClient10DisposableP", ""]
+- ["9BleClient8VariableC", ""]
+- ["9BleClient10ObservableC", "from"]
+- ["9BleClient10ObservableC", "from"]
+- ["9BleClient14ObservableTypeP", "mapWithIndex"]
+- ["9BleClient14ObservableTypeP", "flatMapWithIndex"]
+- ["9BleClient14ObservableTypeP", "skipWhileWithIndex"]
+- ["9BleClient14ObservableTypeP", "takeWhileWithIndex"]
+- ["9BleClient10DisposableP", "addDisposableTo"]
+- ["9BleClient14ObservableTypeP", "shareReplayLatestWhileConnected"]
+- ["9BleClient14ObservableTypeP", "shareReplay"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BehaviorSubject"
+- "Bool"
+- "Disposable"
+- "DisposeBag"
+- !private "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Observable"
+- "ObservableConvertibleType"
+- "ObservableType"
+- "SpinLock"
+- "Variable"
+depends-member:
+- !private ["9BleClient15BehaviorSubjectC", "deinit"]
+- !private ["9BleClient15BehaviorSubjectC", "init"]
+- !private ["9BleClient15BehaviorSubjectC", "on"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- ["9BleClient10DisposableP", "DisposeBag"]
+- ["9BleClient10DisposableP", "addDisposableTo"]
+- !private ["9BleClient10DisposableP", "disposed"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "on"]
+- !private ["SQ", "forever"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- !private ["SQ", "whileConnected"]
+- !private ["9BleClient5EventO", "completed"]
+- !private ["9BleClient5EventO", "next"]
+- !private ["9BleClient16EventConvertibleP", "completed"]
+- !private ["9BleClient16EventConvertibleP", "next"]
+- !private ["SH", "forever"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- !private ["SH", "whileConnected"]
+- ["9BleClient4LockP", "init"]
+- !private ["9BleClient4LockP", "lock"]
+- !private ["9BleClient4LockP", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["9BleClient10ObservableC", "E"]
+- ["9BleClient10ObservableC", "ImmediateSchedulerType"]
+- ["9BleClient10ObservableC", "Observable"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- !private ["9BleClient10ObservableC", "flatMap"]
+- ["9BleClient10ObservableC", "from"]
+- !private ["9BleClient10ObservableC", "map"]
+- !private ["9BleClient10ObservableC", "on"]
+- !private ["9BleClient10ObservableC", "skipWhile"]
+- !private ["9BleClient10ObservableC", "takeWhile"]
+- ["9BleClient25ObservableConvertibleTypeP", "Bool"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", "Int"]
+- ["9BleClient25ObservableConvertibleTypeP", "Observable"]
+- ["9BleClient25ObservableConvertibleTypeP", "ObservableConvertibleType"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "enumerated"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "flatMap"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "from"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "map"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "on"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "share"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "skipWhile"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "takeWhile"]
+- ["9BleClient14ObservableTypeP", "Bool"]
+- ["9BleClient14ObservableTypeP", "E"]
+- ["9BleClient14ObservableTypeP", "Int"]
+- ["9BleClient14ObservableTypeP", "Observable"]
+- ["9BleClient14ObservableTypeP", "ObservableConvertibleType"]
+- !private ["9BleClient14ObservableTypeP", "enumerated"]
+- !private ["9BleClient14ObservableTypeP", "flatMap"]
+- ["9BleClient14ObservableTypeP", "flatMapWithIndex"]
+- !private ["9BleClient14ObservableTypeP", "from"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "map"]
+- ["9BleClient14ObservableTypeP", "mapWithIndex"]
+- !private ["9BleClient14ObservableTypeP", "on"]
+- !private ["9BleClient14ObservableTypeP", "share"]
+- ["9BleClient14ObservableTypeP", "shareReplay"]
+- ["9BleClient14ObservableTypeP", "shareReplayLatestWhileConnected"]
+- !private ["9BleClient14ObservableTypeP", "skipWhile"]
+- ["9BleClient14ObservableTypeP", "skipWhileWithIndex"]
+- !private ["9BleClient14ObservableTypeP", "takeWhile"]
+- ["9BleClient14ObservableTypeP", "takeWhileWithIndex"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- !private ["9BleClient12ObserverTypeP", "on"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "lock"]
+- !private ["9BleClient18ReactiveCompatibleP", "unlock"]
+- !private ["9BleClient20SubjectLifetimeScopeO", "forever"]
+- !private ["9BleClient20SubjectLifetimeScopeO", "whileConnected"]
+- !private ["9BleClient11SubjectTypeP", "init"]
+- !private ["9BleClient11SubjectTypeP", "on"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "on"]
+- ["9BleClient8VariableC", "BehaviorSubject"]
+- ["9BleClient8VariableC", "E"]
+- ["9BleClient8VariableC", "Element"]
+- ["9BleClient8VariableC", "Observable"]
+- ["9BleClient8VariableC", "SpinLock"]
+- !private ["9BleClient8VariableC", "_lock"]
+- !private ["9BleClient8VariableC", "_subject"]
+- !private ["9BleClient8VariableC", "_value"]
+- ["9BleClient8VariableC", "asObservable"]
+- ["9BleClient8VariableC", "deinit"]
+- ["9BleClient8VariableC", "init"]
+- ["9BleClient8VariableC", "value"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+depends-nominal:
+- !private "9BleClient15BehaviorSubjectC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9BleClient10DisposableP"
+- "SQ"
+- !private "9BleClient5EventO"
+- !private "9BleClient16EventConvertibleP"
+- "SH"
+- "9BleClient4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- !private "9BleClient12ObserverTypeP"
+- "9BleClient18ReactiveCompatibleP"
+- !private "9BleClient20SubjectLifetimeScopeO"
+- !private "9BleClient11SubjectTypeP"
+- !private "9BleClient27SynchronizedUnsubscribeTypeP"
+- "9BleClient8VariableC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4aa47aa79c85680327dcc599cf4d2b01"

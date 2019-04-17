@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+provides-nominal:
+- "9BleClient17PrimitiveSequenceV"
+- "9BleClient21PrimitiveSequenceTypeP"
+provides-member:
+- ["9BleClient17PrimitiveSequenceV", ""]
+- ["9BleClient21PrimitiveSequenceTypeP", ""]
+- ["9BleClient17PrimitiveSequenceV", "deferred"]
+- ["9BleClient17PrimitiveSequenceV", "delay"]
+- ["9BleClient17PrimitiveSequenceV", "delaySubscription"]
+- ["9BleClient17PrimitiveSequenceV", "observeOn"]
+- ["9BleClient17PrimitiveSequenceV", "subscribeOn"]
+- ["9BleClient17PrimitiveSequenceV", "catchError"]
+- ["9BleClient17PrimitiveSequenceV", "retry"]
+- ["9BleClient17PrimitiveSequenceV", "retryWhen"]
+- ["9BleClient17PrimitiveSequenceV", "retryWhen"]
+- ["9BleClient17PrimitiveSequenceV", "debug"]
+- ["9BleClient17PrimitiveSequenceV", "using"]
+- ["9BleClient17PrimitiveSequenceV", "timeout"]
+- ["9BleClient17PrimitiveSequenceV", "timeout"]
+- ["9BleClient21PrimitiveSequenceTypeP", "timer"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "Int"
+- "IntegerLiteralType"
+- "Observable"
+- "ObservableConvertibleType"
+- "ObservableType"
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+- "RxAbstractInteger"
+- "RxTimeInterval"
+- "SchedulerType"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "UInt"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9BleClient10ObservableC", "catchError"]
+- !private ["9BleClient10ObservableC", "debug"]
+- !private ["9BleClient10ObservableC", "deferred"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- !private ["9BleClient10ObservableC", "delay"]
+- !private ["9BleClient10ObservableC", "delaySubscription"]
+- !private ["9BleClient10ObservableC", "observeOn"]
+- !private ["9BleClient10ObservableC", "retry"]
+- !private ["9BleClient10ObservableC", "retryWhen"]
+- !private ["9BleClient10ObservableC", "subscribeOn"]
+- !private ["9BleClient10ObservableC", "timeout"]
+- !private ["9BleClient10ObservableC", "timer"]
+- !private ["9BleClient10ObservableC", "using"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", "ElementType"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Observable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "PrimitiveSequence"]
+- ["9BleClient25ObservableConvertibleTypeP", "TraitType"]
+- ["9BleClient25ObservableConvertibleTypeP", ""]
+- ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "catchError"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "debug"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "deferred"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "delay"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "delaySubscription"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "observeOn"]
+- ["9BleClient25ObservableConvertibleTypeP", "primitiveSequence"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "retry"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "retryWhen"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "source"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "timeout"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "timer"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "using"]
+- !private ["9BleClient14ObservableTypeP", "catchError"]
+- !private ["9BleClient14ObservableTypeP", "debug"]
+- !private ["9BleClient14ObservableTypeP", "deferred"]
+- !private ["9BleClient14ObservableTypeP", "delay"]
+- !private ["9BleClient14ObservableTypeP", "delaySubscription"]
+- !private ["9BleClient14ObservableTypeP", "observeOn"]
+- !private ["9BleClient14ObservableTypeP", "retry"]
+- !private ["9BleClient14ObservableTypeP", "retryWhen"]
+- !private ["9BleClient14ObservableTypeP", "subscribeOn"]
+- !private ["9BleClient14ObservableTypeP", "timeout"]
+- !private ["9BleClient14ObservableTypeP", "timer"]
+- !private ["9BleClient14ObservableTypeP", "using"]
+- ["9BleClient17PrimitiveSequenceV", "Bool"]
+- ["9BleClient17PrimitiveSequenceV", "Disposable"]
+- ["9BleClient17PrimitiveSequenceV", "E"]
+- ["9BleClient17PrimitiveSequenceV", "Element"]
+- ["9BleClient17PrimitiveSequenceV", "ElementType"]
+- ["9BleClient17PrimitiveSequenceV", "ImmediateSchedulerType"]
+- ["9BleClient17PrimitiveSequenceV", "Int"]
+- ["9BleClient17PrimitiveSequenceV", "Observable"]
+- ["9BleClient17PrimitiveSequenceV", "ObservableType"]
+- ["9BleClient17PrimitiveSequenceV", "PrimitiveSequence"]
+- ["9BleClient17PrimitiveSequenceV", "RxTimeInterval"]
+- ["9BleClient17PrimitiveSequenceV", "SchedulerType"]
+- ["9BleClient17PrimitiveSequenceV", "String"]
+- ["9BleClient17PrimitiveSequenceV", "Swift"]
+- ["9BleClient17PrimitiveSequenceV", "Trait"]
+- ["9BleClient17PrimitiveSequenceV", "TraitType"]
+- ["9BleClient17PrimitiveSequenceV", "UInt"]
+- ["9BleClient17PrimitiveSequenceV", "asObservable"]
+- ["9BleClient17PrimitiveSequenceV", "catchError"]
+- ["9BleClient17PrimitiveSequenceV", "debug"]
+- ["9BleClient17PrimitiveSequenceV", "deferred"]
+- ["9BleClient17PrimitiveSequenceV", "deinit"]
+- ["9BleClient17PrimitiveSequenceV", "delay"]
+- ["9BleClient17PrimitiveSequenceV", "delaySubscription"]
+- ["9BleClient17PrimitiveSequenceV", "init"]
+- ["9BleClient17PrimitiveSequenceV", "observeOn"]
+- ["9BleClient17PrimitiveSequenceV", "primitiveSequence"]
+- ["9BleClient17PrimitiveSequenceV", "retry"]
+- ["9BleClient17PrimitiveSequenceV", "retryWhen"]
+- ["9BleClient17PrimitiveSequenceV", "source"]
+- ["9BleClient17PrimitiveSequenceV", "subscribeOn"]
+- ["9BleClient17PrimitiveSequenceV", "timeout"]
+- ["9BleClient17PrimitiveSequenceV", "using"]
+- ["9BleClient21PrimitiveSequenceTypeP", "E"]
+- ["9BleClient21PrimitiveSequenceTypeP", "ElementType"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "Observable"]
+- ["9BleClient21PrimitiveSequenceTypeP", "PrimitiveSequence"]
+- ["9BleClient21PrimitiveSequenceTypeP", "RxAbstractInteger"]
+- ["9BleClient21PrimitiveSequenceTypeP", "RxTimeInterval"]
+- ["9BleClient21PrimitiveSequenceTypeP", "SchedulerType"]
+- ["9BleClient21PrimitiveSequenceTypeP", "TraitType"]
+- ["9BleClient21PrimitiveSequenceTypeP", ""]
+- ["9BleClient21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "init"]
+- ["9BleClient21PrimitiveSequenceTypeP", "primitiveSequence"]
+- !private ["9BleClient21PrimitiveSequenceTypeP", "source"]
+- ["9BleClient21PrimitiveSequenceTypeP", "timer"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- !private "9BleClient14ObservableTypeP"
+- "9BleClient17PrimitiveSequenceV"
+- "9BleClient21PrimitiveSequenceTypeP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "54c09e2d8992e68ddf4295fb54176238"

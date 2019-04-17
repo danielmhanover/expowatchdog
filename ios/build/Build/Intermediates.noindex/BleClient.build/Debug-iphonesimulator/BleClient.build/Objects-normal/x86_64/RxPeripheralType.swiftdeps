@@ -1,0 +1,96 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxPeripheralType"
+- "=="
+provides-nominal:
+- "9BleClient16RxPeripheralTypeP"
+provides-member:
+- ["9BleClient16RxPeripheralTypeP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- "CBCharacteristicWriteType"
+- "CBPeripheral"
+- "CBPeripheralState"
+- "CBUUID"
+- "Data"
+- "Equatable"
+- "Error"
+- "Int"
+- "Observable"
+- "RxCharacteristicType"
+- "RxDescriptorType"
+- "RxPeripheralType"
+- "RxServiceType"
+- "String"
+- "UInt"
+- "UUID"
+depends-member:
+- ["SQ", "RxPeripheralType"]
+- ["9BleClient16RxPeripheralTypeP", "Bool"]
+- ["9BleClient16RxPeripheralTypeP", "CBCharacteristicWriteType"]
+- ["9BleClient16RxPeripheralTypeP", "CBPeripheral"]
+- ["9BleClient16RxPeripheralTypeP", "CBPeripheralState"]
+- ["9BleClient16RxPeripheralTypeP", "CBUUID"]
+- ["9BleClient16RxPeripheralTypeP", "Data"]
+- ["9BleClient16RxPeripheralTypeP", "Error"]
+- ["9BleClient16RxPeripheralTypeP", "Int"]
+- ["9BleClient16RxPeripheralTypeP", "Observable"]
+- ["9BleClient16RxPeripheralTypeP", "RxCharacteristicType"]
+- ["9BleClient16RxPeripheralTypeP", "RxDescriptorType"]
+- ["9BleClient16RxPeripheralTypeP", "RxServiceType"]
+- ["9BleClient16RxPeripheralTypeP", "String"]
+- ["9BleClient16RxPeripheralTypeP", "UInt"]
+- ["9BleClient16RxPeripheralTypeP", "UUID"]
+- ["9BleClient16RxPeripheralTypeP", "canSendWriteWithoutResponse"]
+- ["9BleClient16RxPeripheralTypeP", "discoverCharacteristics"]
+- ["9BleClient16RxPeripheralTypeP", "discoverDescriptors"]
+- ["9BleClient16RxPeripheralTypeP", "discoverIncludedServices"]
+- ["9BleClient16RxPeripheralTypeP", "discoverServices"]
+- ["9BleClient16RxPeripheralTypeP", "identifier"]
+- ["9BleClient16RxPeripheralTypeP", "maximumWriteValueLength"]
+- ["9BleClient16RxPeripheralTypeP", "name"]
+- ["9BleClient16RxPeripheralTypeP", "objectId"]
+- ["9BleClient16RxPeripheralTypeP", "peripheral"]
+- ["9BleClient16RxPeripheralTypeP", "readRSSI"]
+- ["9BleClient16RxPeripheralTypeP", "readValue"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didDiscoverCharacteristicsForService"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didDiscoverDescriptorsForCharacteristic"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didDiscoverIncludedServicesForService"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didDiscoverServices"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didModifyServices"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didReadRSSI"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didUpdateName"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didUpdateNotificationStateForCharacteristic"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didUpdateValueForCharacteristic"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didUpdateValueForDescriptor"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didWriteValueForCharacteristic"]
+- ["9BleClient16RxPeripheralTypeP", "rx_didWriteValueForDescriptor"]
+- ["9BleClient16RxPeripheralTypeP", "rx_isReadyToSendWriteWithoutResponse"]
+- ["9BleClient16RxPeripheralTypeP", "services"]
+- ["9BleClient16RxPeripheralTypeP", "setNotifyValue"]
+- ["9BleClient16RxPeripheralTypeP", "state"]
+- ["9BleClient16RxPeripheralTypeP", "writeValue"]
+depends-nominal:
+- "SQ"
+- "9BleClient16RxPeripheralTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a7e57e17e1e04f7ac77b2cad47add4d3"

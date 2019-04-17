@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulePeriodicRecursive"
+provides-nominal:
+- "9BleClient32SchedulePeriodicRecursiveCommandO"
+- "9BleClient25SchedulePeriodicRecursiveC"
+provides-member:
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", ""]
+- ["9BleClient25SchedulePeriodicRecursiveC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private ">"
+- "AnyRecursiveScheduler"
+- "AssignmentPrecedence"
+- !private "AtomicDecrement"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "RxTimeInterval"
+- "SchedulePeriodicRecursive"
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulerType"
+- "Void"
+depends-member:
+- !private ["9BleClient21AnyRecursiveSchedulerC", "schedule"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "dispatchStart"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "tick"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "dispatchStart"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "tick"]
+- !private ["s6HasherV", "combine"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "scheduleRecursive"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "AnyRecursiveScheduler"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "AtomicDecrement"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "AtomicIncrement"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "AtomicInt"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "Disposable"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "RecursiveAction"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "RecursiveScheduler"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "RxTimeInterval"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "SchedulePeriodicRecursiveCommand"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "SchedulerType"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "State"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "Void"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_action"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_pendingTickCount"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_period"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_scheduler"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_startAfter"]
+- !private ["9BleClient25SchedulePeriodicRecursiveC", "_state"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "init"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "start"]
+- ["9BleClient25SchedulePeriodicRecursiveC", "tick"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "__derived_enum_equals"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "deinit"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "dispatchStart"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "hash"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "hashValue"]
+- ["9BleClient32SchedulePeriodicRecursiveCommandO", "tick"]
+- !private ["9BleClient13SchedulerTypeP", "scheduleRecursive"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "9BleClient21AnyRecursiveSchedulerC"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "9BleClient22ImmediateSchedulerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "9BleClient25SchedulePeriodicRecursiveC"
+- "9BleClient32SchedulePeriodicRecursiveCommandO"
+- !private "9BleClient13SchedulerTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d3182e96cf48c2af0288ad790c845280"

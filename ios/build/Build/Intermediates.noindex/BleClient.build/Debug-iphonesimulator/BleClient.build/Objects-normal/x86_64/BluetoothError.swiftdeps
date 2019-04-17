@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BluetoothError"
+- "=="
+provides-nominal:
+- "9BleClient14BluetoothErrorO"
+provides-member:
+- ["9BleClient14BluetoothErrorO", ""]
+- ["9BleClient14BluetoothErrorO", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BluetoothError"
+- "BluetoothState"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Characteristic"
+- "CustomStringConvertible"
+- "Descriptor"
+- "Equatable"
+- "Error"
+- "Peripheral"
+- "Service"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["9BleClient14BluetoothErrorO", "BluetoothState"]
+- ["9BleClient14BluetoothErrorO", "Characteristic"]
+- ["9BleClient14BluetoothErrorO", "Descriptor"]
+- ["9BleClient14BluetoothErrorO", "Error"]
+- ["9BleClient14BluetoothErrorO", "Peripheral"]
+- ["9BleClient14BluetoothErrorO", "Service"]
+- ["9BleClient14BluetoothErrorO", "String"]
+- ["9BleClient14BluetoothErrorO", "_code"]
+- ["9BleClient14BluetoothErrorO", "_domain"]
+- ["9BleClient14BluetoothErrorO", "_getEmbeddedNSError"]
+- ["9BleClient14BluetoothErrorO", "_userInfo"]
+- ["9BleClient14BluetoothErrorO", "bluetoothInUnknownState"]
+- ["9BleClient14BluetoothErrorO", "bluetoothPoweredOff"]
+- ["9BleClient14BluetoothErrorO", "bluetoothResetting"]
+- ["9BleClient14BluetoothErrorO", "bluetoothUnauthorized"]
+- ["9BleClient14BluetoothErrorO", "bluetoothUnsupported"]
+- ["9BleClient14BluetoothErrorO", "characteristicNotifyChangeFailed"]
+- ["9BleClient14BluetoothErrorO", "characteristicReadFailed"]
+- ["9BleClient14BluetoothErrorO", "characteristicWriteFailed"]
+- ["9BleClient14BluetoothErrorO", "characteristicsDiscoveryFailed"]
+- ["9BleClient14BluetoothErrorO", "deinit"]
+- ["9BleClient14BluetoothErrorO", "description"]
+- ["9BleClient14BluetoothErrorO", "descriptorReadFailed"]
+- ["9BleClient14BluetoothErrorO", "descriptorWriteFailed"]
+- ["9BleClient14BluetoothErrorO", "descriptorsDiscoveryFailed"]
+- ["9BleClient14BluetoothErrorO", "destroyed"]
+- ["9BleClient14BluetoothErrorO", "includedServicesDiscoveryFailed"]
+- ["9BleClient14BluetoothErrorO", "init"]
+- ["9BleClient14BluetoothErrorO", "peripheralConnectionFailed"]
+- ["9BleClient14BluetoothErrorO", "peripheralDisconnected"]
+- ["9BleClient14BluetoothErrorO", "peripheralRSSIReadFailed"]
+- ["9BleClient14BluetoothErrorO", "servicesDiscoveryFailed"]
+- ["9BleClient14BluetoothStateO", "poweredOff"]
+- ["9BleClient14BluetoothStateO", "resetting"]
+- ["9BleClient14BluetoothStateO", "unauthorized"]
+- ["9BleClient14BluetoothStateO", "unknown"]
+- ["9BleClient14BluetoothStateO", "unsupported"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- ["s23CustomStringConvertibleP", "bluetoothInUnknownState"]
+- ["s23CustomStringConvertibleP", "bluetoothPoweredOff"]
+- ["s23CustomStringConvertibleP", "bluetoothResetting"]
+- ["s23CustomStringConvertibleP", "bluetoothUnauthorized"]
+- ["s23CustomStringConvertibleP", "bluetoothUnsupported"]
+- ["s23CustomStringConvertibleP", "characteristicNotifyChangeFailed"]
+- ["s23CustomStringConvertibleP", "characteristicReadFailed"]
+- ["s23CustomStringConvertibleP", "characteristicWriteFailed"]
+- ["s23CustomStringConvertibleP", "characteristicsDiscoveryFailed"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "descriptorReadFailed"]
+- ["s23CustomStringConvertibleP", "descriptorWriteFailed"]
+- ["s23CustomStringConvertibleP", "descriptorsDiscoveryFailed"]
+- ["s23CustomStringConvertibleP", "destroyed"]
+- ["s23CustomStringConvertibleP", "includedServicesDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "peripheralConnectionFailed"]
+- ["s23CustomStringConvertibleP", "peripheralDisconnected"]
+- ["s23CustomStringConvertibleP", "peripheralRSSIReadFailed"]
+- ["s23CustomStringConvertibleP", "servicesDiscoveryFailed"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- ["SQ", "bluetoothInUnknownState"]
+- ["SQ", "bluetoothPoweredOff"]
+- ["SQ", "bluetoothResetting"]
+- ["SQ", "bluetoothUnauthorized"]
+- ["SQ", "bluetoothUnsupported"]
+- ["SQ", "characteristicNotifyChangeFailed"]
+- ["SQ", "characteristicReadFailed"]
+- ["SQ", "characteristicWriteFailed"]
+- ["SQ", "characteristicsDiscoveryFailed"]
+- ["SQ", "description"]
+- ["SQ", "descriptorReadFailed"]
+- ["SQ", "descriptorWriteFailed"]
+- ["SQ", "descriptorsDiscoveryFailed"]
+- ["SQ", "destroyed"]
+- ["SQ", "includedServicesDiscoveryFailed"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "peripheralConnectionFailed"]
+- ["SQ", "peripheralDisconnected"]
+- ["SQ", "peripheralRSSIReadFailed"]
+- ["SQ", "poweredOff"]
+- ["SQ", "resetting"]
+- ["SQ", "servicesDiscoveryFailed"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unknown"]
+- ["SQ", "unsupported"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "bluetoothInUnknownState"]
+- ["s5ErrorP", "bluetoothPoweredOff"]
+- ["s5ErrorP", "bluetoothResetting"]
+- ["s5ErrorP", "bluetoothUnauthorized"]
+- ["s5ErrorP", "bluetoothUnsupported"]
+- ["s5ErrorP", "characteristicNotifyChangeFailed"]
+- ["s5ErrorP", "characteristicReadFailed"]
+- ["s5ErrorP", "characteristicWriteFailed"]
+- ["s5ErrorP", "characteristicsDiscoveryFailed"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "descriptorReadFailed"]
+- ["s5ErrorP", "descriptorWriteFailed"]
+- ["s5ErrorP", "descriptorsDiscoveryFailed"]
+- ["s5ErrorP", "destroyed"]
+- ["s5ErrorP", "includedServicesDiscoveryFailed"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "peripheralConnectionFailed"]
+- ["s5ErrorP", "peripheralDisconnected"]
+- ["s5ErrorP", "peripheralRSSIReadFailed"]
+- ["s5ErrorP", "servicesDiscoveryFailed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "poweredOff"]
+- ["SH", "resetting"]
+- ["SH", "unauthorized"]
+- ["SH", "unknown"]
+- ["SH", "unsupported"]
+- ["9BleClient8LoggableP", "poweredOff"]
+- ["9BleClient8LoggableP", "resetting"]
+- ["9BleClient8LoggableP", "unauthorized"]
+- ["9BleClient8LoggableP", "unknown"]
+- ["9BleClient8LoggableP", "unsupported"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["9BleClient10PeripheralC", "deinit"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "poweredOff"]
+- ["SY", "resetting"]
+- ["SY", "unauthorized"]
+- ["SY", "unknown"]
+- ["SY", "unsupported"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "9BleClient14BluetoothErrorO"
+- "9BleClient14BluetoothStateO"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "9BleClient8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "9BleClient10PeripheralC"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "edfeb855e6eb0e6389d499931c609231"

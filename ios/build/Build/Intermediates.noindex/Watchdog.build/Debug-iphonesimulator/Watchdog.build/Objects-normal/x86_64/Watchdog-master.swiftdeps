@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "f4045c63e6c04afeda8afd34fbe08491"
+build_time: [1555475550, 16788000]
+inputs:
+  "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/ios/Empty.swift": [1553057353, 0]

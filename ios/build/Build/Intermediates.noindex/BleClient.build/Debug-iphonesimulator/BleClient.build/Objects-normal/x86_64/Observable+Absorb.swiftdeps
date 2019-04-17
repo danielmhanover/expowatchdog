@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9BleClient14ObservableTypeP", ""]
+- ["9BleClient14ObservableTypeP", "absorb"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "AnyObserver"
+- !private "AssignmentPrecedence"
+- !private "CompositeDisposable"
+- "Observable"
+- "ObservableType"
+depends-member:
+- !private ["9BleClient11AnyObserverV", "deinit"]
+- !private ["9BleClient11AnyObserverV", "init"]
+- !private ["9BleClient11AnyObserverV", "on"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["9BleClient10CancelableP", "dispose"]
+- !private ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "insert"]
+- !private ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient19CompositeDisposableC", "deinit"]
+- !private ["9BleClient19CompositeDisposableC", "dispose"]
+- !private ["9BleClient19CompositeDisposableC", "init"]
+- !private ["9BleClient19CompositeDisposableC", "insert"]
+- !private ["9BleClient19CompositeDisposableC", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "isStopEvent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "insert"]
+- !private ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "dispose"]
+- !private ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "insert"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["9BleClient5EventO", "isStopEvent"]
+- !private ["9BleClient16EventConvertibleP", "isStopEvent"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["9BleClient10ObservableC", "create"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- !private ["9BleClient10ObservableC", "subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "AnyObserver"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "CompositeDisposable"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", "Observable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "create"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- !private ["9BleClient14ObservableTypeP", "AnyObserver"]
+- !private ["9BleClient14ObservableTypeP", "CompositeDisposable"]
+- ["9BleClient14ObservableTypeP", "E"]
+- ["9BleClient14ObservableTypeP", "Observable"]
+- ["9BleClient14ObservableTypeP", "absorb"]
+- !private ["9BleClient14ObservableTypeP", "create"]
+- !private ["9BleClient14ObservableTypeP", "subscribe"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- !private ["9BleClient12ObserverTypeP", "on"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "9BleClient11AnyObserverV"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "9BleClient10CancelableP"
+- !private "9BleClient19CompositeDisposableC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9BleClient10DisposableP"
+- !private "9BleClient11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- !private "9BleClient5EventO"
+- !private "9BleClient16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- !private "9BleClient12ObserverTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a1f31573bd3602bc399f4b326541403f"

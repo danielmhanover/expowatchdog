@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, StatusBar, ScrollView } from 'react-native';
 import moment from 'moment'
 import * as _ from 'lodash'
-import { pulseHistorical, database } from './Data';
+import { pulseHistorical, database, firestore } from './Data';
 import { MenuProvider } from 'react-native-popup-menu';
 import {
   Menu,
@@ -47,14 +47,19 @@ export default class App extends React.Component<{}, IState> {
         data,
       })
     })
-    database.ref("latest_version").on("value", (snapshot) => {
-      const v = snapshot.val()
-      if (v) {
-        this.setState({
-          latest_version: v
-        })
-      }
+    firestore.collection('pulse').orderBy('timestamp', 'desc').limit(1).onSnapshot((snapshot) => {
+      this.setState({
+        latest_version: snapshot.docs[0].data().stage
+      })
     })
+    // database.ref("latest_version").on("value", (snapshot) => {
+    //   const v = snapshot.val()
+    //   if (v) {
+    //     this.setState({
+    //       latest_version: v
+    //     })
+    //   }
+    // })
   }
 
   render() {
@@ -123,7 +128,7 @@ export default class App extends React.Component<{}, IState> {
                   <Text style={{
                     color: textColor,
                   }}>
-                    { `${this.state.data[key]*20}/20 hours` }
+                    { `${Math.floor(this.state.data[key]*20*100)/100}/20 hours` }
                   </Text>
                 </View>
                 <View style={{
@@ -137,11 +142,13 @@ export default class App extends React.Component<{}, IState> {
               </View>)
             }) }
           </ScrollView>
+          <Text>Began treatment on {moment('12/01/2018').format("MM/DD/YYYY")}</Text>
+          <Text>Should be on stage {Math.floor(moment().diff(moment('12/01/2018'), 'weeks')/2)}</Text>
           {
             this.state.latest_version && 
             <Text style={{
               fontSize: 24
-            }}>{ `On stage ${this.state.latest_version} of 20` }</Text>
+            }}>{ `Wearing stage ${this.state.latest_version} of 20` }</Text>
           }
         </View>
       </MenuProvider>

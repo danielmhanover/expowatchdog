@@ -1,0 +1,530 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReplaySubject"
+provides-nominal:
+- "9BleClient13ReplaySubjectC"
+provides-member:
+- ["9BleClient13ReplaySubjectC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- !private ">"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Observable"
+- "ObserverType"
+- "Queue"
+- "RecursiveLock"
+- !private "ReplayAll"
+- "ReplayBufferBase"
+- !private "ReplayMany"
+- "ReplayManyBase"
+- !private "ReplayOne"
+- "ReplaySubject"
+- !private "RxError"
+- !private "StringLiteralType"
+- "SubjectType"
+- !private "SubscriptionDisposable"
+- "SynchronizedUnsubscribeType"
+- !private "dispatch"
+- !private "rxAbstractMethod"
+depends-member:
+- !private ["9BleClient11AnyObserverV", "deinit"]
+- ["9BleClient11AnyObserverV", "s"]
+- ["9BleClient3BagV", "KeyType"]
+- !private ["9BleClient3BagV", "count"]
+- ["9BleClient3BagV", "init"]
+- !private ["9BleClient3BagV", "insert"]
+- !private ["9BleClient3BagV", "removeAll"]
+- !private ["9BleClient3BagV", "removeKey"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- ["s28CustomDebugStringConvertibleP", "KeyType"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "disposed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["9BleClient10DisposableP", "Disposables"]
+- ["9BleClient10DisposableP", "DisposeKey"]
+- ["9BleClient10DisposableP", "E"]
+- ["9BleClient10DisposableP", "Observers"]
+- !private ["9BleClient10DisposableP", "Queue"]
+- ["9BleClient10DisposableP", "RecursiveLock"]
+- !private ["9BleClient10DisposableP", "ReplayAll"]
+- !private ["9BleClient10DisposableP", "ReplayMany"]
+- !private ["9BleClient10DisposableP", "ReplayOne"]
+- !private ["9BleClient10DisposableP", "RxError"]
+- ["9BleClient10DisposableP", "SubjectObserverType"]
+- !private ["9BleClient10DisposableP", "SubscriptionDisposable"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_bufferSize"]
+- !private ["9BleClient10DisposableP", "_isDisposed"]
+- !private ["9BleClient10DisposableP", "_isStopped"]
+- !private ["9BleClient10DisposableP", "_lock"]
+- !private ["9BleClient10DisposableP", "_observers"]
+- !private ["9BleClient10DisposableP", "_queue"]
+- !private ["9BleClient10DisposableP", "_stoppedEvent"]
+- !private ["9BleClient10DisposableP", "_synchronized_dispose"]
+- !private ["9BleClient10DisposableP", "_synchronized_on"]
+- !private ["9BleClient10DisposableP", "_synchronized_subscribe"]
+- !private ["9BleClient10DisposableP", "_synchronized_unsubscribe"]
+- !private ["9BleClient10DisposableP", "_value"]
+- !private ["9BleClient10DisposableP", "addValueToBuffer"]
+- ["9BleClient10DisposableP", "asObserver"]
+- !private ["9BleClient10DisposableP", "dispatch"]
+- ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "on"]
+- !private ["9BleClient10DisposableP", "replayBuffer"]
+- !private ["9BleClient10DisposableP", "rxAbstractMethod"]
+- !private ["9BleClient10DisposableP", "synchronizedDispose"]
+- ["9BleClient10DisposableP", "synchronizedUnsubscribe"]
+- !private ["9BleClient10DisposableP", "trim"]
+- !private ["9BleClient11DisposablesV", "create"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- !private ["s5ErrorP", "disposed"]
+- ["9BleClient5EventO", "completed"]
+- ["9BleClient5EventO", "error"]
+- ["9BleClient5EventO", "next"]
+- ["9BleClient16EventConvertibleP", "completed"]
+- ["9BleClient16EventConvertibleP", "error"]
+- ["9BleClient16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- ["9BleClient4LockP", "init"]
+- !private ["9BleClient4LockP", "lock"]
+- !private ["9BleClient4LockP", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["9BleClient10ObservableC", "AnyObserver"]
+- ["9BleClient10ObservableC", "Bool"]
+- ["9BleClient10ObservableC", "Disposable"]
+- !private ["9BleClient10ObservableC", "Disposables"]
+- ["9BleClient10ObservableC", "DisposeKey"]
+- ["9BleClient10ObservableC", "E"]
+- ["9BleClient10ObservableC", "Element"]
+- ["9BleClient10ObservableC", "Event"]
+- ["9BleClient10ObservableC", "Int"]
+- ["9BleClient10ObservableC", "ObserverType"]
+- ["9BleClient10ObservableC", "Observers"]
+- ["9BleClient10ObservableC", "Queue"]
+- ["9BleClient10ObservableC", "RecursiveLock"]
+- !private ["9BleClient10ObservableC", "ReplayAll"]
+- !private ["9BleClient10ObservableC", "ReplayMany"]
+- !private ["9BleClient10ObservableC", "ReplayOne"]
+- ["9BleClient10ObservableC", "ReplaySubject"]
+- !private ["9BleClient10ObservableC", "RxError"]
+- ["9BleClient10ObservableC", "SubjectObserverType"]
+- !private ["9BleClient10ObservableC", "SubscriptionDisposable"]
+- ["9BleClient10ObservableC", ""]
+- ["9BleClient10ObservableC", "_bufferSize"]
+- ["9BleClient10ObservableC", "_isDisposed"]
+- ["9BleClient10ObservableC", "_isStopped"]
+- ["9BleClient10ObservableC", "_lock"]
+- ["9BleClient10ObservableC", "_observers"]
+- ["9BleClient10ObservableC", "_queue"]
+- ["9BleClient10ObservableC", "_stoppedEvent"]
+- ["9BleClient10ObservableC", "_synchronized_dispose"]
+- ["9BleClient10ObservableC", "_synchronized_on"]
+- ["9BleClient10ObservableC", "_synchronized_subscribe"]
+- ["9BleClient10ObservableC", "_synchronized_unsubscribe"]
+- ["9BleClient10ObservableC", "_value"]
+- ["9BleClient10ObservableC", "addValueToBuffer"]
+- ["9BleClient10ObservableC", "asObserver"]
+- ["9BleClient10ObservableC", "create"]
+- ["9BleClient10ObservableC", "createUnbounded"]
+- !private ["9BleClient10ObservableC", "dispatch"]
+- ["9BleClient10ObservableC", "dispose"]
+- ["9BleClient10ObservableC", "hasObservers"]
+- ["9BleClient10ObservableC", "init"]
+- !private ["9BleClient10ObservableC", "init"]
+- ["9BleClient10ObservableC", "isStopped"]
+- ["9BleClient10ObservableC", "on"]
+- ["9BleClient10ObservableC", "replayBuffer"]
+- !private ["9BleClient10ObservableC", "rxAbstractMethod"]
+- ["9BleClient10ObservableC", "subscribe"]
+- ["9BleClient10ObservableC", "synchronizedDispose"]
+- ["9BleClient10ObservableC", "synchronizedUnsubscribe"]
+- ["9BleClient10ObservableC", "trim"]
+- ["9BleClient10ObservableC", "unsubscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Disposables"]
+- ["9BleClient25ObservableConvertibleTypeP", "DisposeKey"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- ["9BleClient25ObservableConvertibleTypeP", "Observers"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Queue"]
+- ["9BleClient25ObservableConvertibleTypeP", "RecursiveLock"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ReplayAll"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ReplayMany"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "ReplayOne"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "RxError"]
+- ["9BleClient25ObservableConvertibleTypeP", "SubjectObserverType"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "SubscriptionDisposable"]
+- ["9BleClient25ObservableConvertibleTypeP", ""]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_bufferSize"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_isDisposed"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_isStopped"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_lock"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_observers"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_queue"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_stoppedEvent"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_synchronized_dispose"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_synchronized_on"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_synchronized_subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_synchronized_unsubscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_value"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "addValueToBuffer"]
+- ["9BleClient25ObservableConvertibleTypeP", "asObserver"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "dispatch"]
+- ["9BleClient25ObservableConvertibleTypeP", "dispose"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- ["9BleClient25ObservableConvertibleTypeP", "on"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "replayBuffer"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "rxAbstractMethod"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "synchronizedDispose"]
+- ["9BleClient25ObservableConvertibleTypeP", "synchronizedUnsubscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "trim"]
+- !private ["9BleClient14ObservableTypeP", "Disposables"]
+- ["9BleClient14ObservableTypeP", "DisposeKey"]
+- ["9BleClient14ObservableTypeP", "E"]
+- ["9BleClient14ObservableTypeP", "Observers"]
+- !private ["9BleClient14ObservableTypeP", "Queue"]
+- ["9BleClient14ObservableTypeP", "RecursiveLock"]
+- !private ["9BleClient14ObservableTypeP", "ReplayAll"]
+- !private ["9BleClient14ObservableTypeP", "ReplayMany"]
+- !private ["9BleClient14ObservableTypeP", "ReplayOne"]
+- !private ["9BleClient14ObservableTypeP", "RxError"]
+- ["9BleClient14ObservableTypeP", "SubjectObserverType"]
+- !private ["9BleClient14ObservableTypeP", "SubscriptionDisposable"]
+- ["9BleClient14ObservableTypeP", ""]
+- !private ["9BleClient14ObservableTypeP", "_bufferSize"]
+- !private ["9BleClient14ObservableTypeP", "_isDisposed"]
+- !private ["9BleClient14ObservableTypeP", "_isStopped"]
+- !private ["9BleClient14ObservableTypeP", "_lock"]
+- !private ["9BleClient14ObservableTypeP", "_observers"]
+- !private ["9BleClient14ObservableTypeP", "_queue"]
+- !private ["9BleClient14ObservableTypeP", "_stoppedEvent"]
+- !private ["9BleClient14ObservableTypeP", "_synchronized_dispose"]
+- !private ["9BleClient14ObservableTypeP", "_synchronized_on"]
+- !private ["9BleClient14ObservableTypeP", "_synchronized_subscribe"]
+- !private ["9BleClient14ObservableTypeP", "_synchronized_unsubscribe"]
+- !private ["9BleClient14ObservableTypeP", "_value"]
+- !private ["9BleClient14ObservableTypeP", "addValueToBuffer"]
+- ["9BleClient14ObservableTypeP", "asObserver"]
+- !private ["9BleClient14ObservableTypeP", "dispatch"]
+- ["9BleClient14ObservableTypeP", "dispose"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- ["9BleClient14ObservableTypeP", "on"]
+- !private ["9BleClient14ObservableTypeP", "replayBuffer"]
+- !private ["9BleClient14ObservableTypeP", "rxAbstractMethod"]
+- !private ["9BleClient14ObservableTypeP", "synchronizedDispose"]
+- ["9BleClient14ObservableTypeP", "synchronizedUnsubscribe"]
+- !private ["9BleClient14ObservableTypeP", "trim"]
+- !private ["9BleClient12ObserverTypeP", "Disposables"]
+- ["9BleClient12ObserverTypeP", "DisposeKey"]
+- ["9BleClient12ObserverTypeP", "E"]
+- ["9BleClient12ObserverTypeP", "Observers"]
+- !private ["9BleClient12ObserverTypeP", "Queue"]
+- ["9BleClient12ObserverTypeP", "RecursiveLock"]
+- !private ["9BleClient12ObserverTypeP", "ReplayAll"]
+- !private ["9BleClient12ObserverTypeP", "ReplayMany"]
+- !private ["9BleClient12ObserverTypeP", "ReplayOne"]
+- !private ["9BleClient12ObserverTypeP", "RxError"]
+- ["9BleClient12ObserverTypeP", "SubjectObserverType"]
+- !private ["9BleClient12ObserverTypeP", "SubscriptionDisposable"]
+- ["9BleClient12ObserverTypeP", ""]
+- !private ["9BleClient12ObserverTypeP", "_bufferSize"]
+- !private ["9BleClient12ObserverTypeP", "_isDisposed"]
+- !private ["9BleClient12ObserverTypeP", "_isStopped"]
+- !private ["9BleClient12ObserverTypeP", "_lock"]
+- !private ["9BleClient12ObserverTypeP", "_observers"]
+- !private ["9BleClient12ObserverTypeP", "_queue"]
+- !private ["9BleClient12ObserverTypeP", "_stoppedEvent"]
+- !private ["9BleClient12ObserverTypeP", "_synchronized_dispose"]
+- !private ["9BleClient12ObserverTypeP", "_synchronized_on"]
+- !private ["9BleClient12ObserverTypeP", "_synchronized_subscribe"]
+- !private ["9BleClient12ObserverTypeP", "_synchronized_unsubscribe"]
+- !private ["9BleClient12ObserverTypeP", "_value"]
+- !private ["9BleClient12ObserverTypeP", "addValueToBuffer"]
+- ["9BleClient12ObserverTypeP", "asObserver"]
+- !private ["9BleClient12ObserverTypeP", "dispatch"]
+- ["9BleClient12ObserverTypeP", "dispose"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient12ObserverTypeP", "replayBuffer"]
+- !private ["9BleClient12ObserverTypeP", "rxAbstractMethod"]
+- ["9BleClient12ObserverTypeP", "s"]
+- !private ["9BleClient12ObserverTypeP", "synchronizedDispose"]
+- ["9BleClient12ObserverTypeP", "synchronizedUnsubscribe"]
+- !private ["9BleClient12ObserverTypeP", "trim"]
+- !private ["9BleClient5QueueV", "count"]
+- !private ["9BleClient5QueueV", "deinit"]
+- !private ["9BleClient5QueueV", "dequeue"]
+- !private ["9BleClient5QueueV", "enqueue"]
+- !private ["9BleClient5QueueV", "init"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "lock"]
+- !private ["9BleClient18ReactiveCompatibleP", "unlock"]
+- ["9BleClient13ReplaySubjectC", "AnyObserver"]
+- ["9BleClient13ReplaySubjectC", "Bool"]
+- ["9BleClient13ReplaySubjectC", "Disposable"]
+- !private ["9BleClient13ReplaySubjectC", "Disposables"]
+- ["9BleClient13ReplaySubjectC", "DisposeKey"]
+- ["9BleClient13ReplaySubjectC", "E"]
+- ["9BleClient13ReplaySubjectC", "Element"]
+- ["9BleClient13ReplaySubjectC", "Event"]
+- ["9BleClient13ReplaySubjectC", "Int"]
+- ["9BleClient13ReplaySubjectC", "ObserverType"]
+- ["9BleClient13ReplaySubjectC", "Observers"]
+- ["9BleClient13ReplaySubjectC", "Queue"]
+- ["9BleClient13ReplaySubjectC", "RecursiveLock"]
+- !private ["9BleClient13ReplaySubjectC", "ReplayAll"]
+- !private ["9BleClient13ReplaySubjectC", "ReplayMany"]
+- !private ["9BleClient13ReplaySubjectC", "ReplayOne"]
+- ["9BleClient13ReplaySubjectC", "ReplaySubject"]
+- !private ["9BleClient13ReplaySubjectC", "RxError"]
+- ["9BleClient13ReplaySubjectC", "SubjectObserverType"]
+- !private ["9BleClient13ReplaySubjectC", "SubscriptionDisposable"]
+- !private ["9BleClient13ReplaySubjectC", ""]
+- ["9BleClient13ReplaySubjectC", "_bufferSize"]
+- !private ["9BleClient13ReplaySubjectC", "_isDisposed"]
+- !private ["9BleClient13ReplaySubjectC", "_isStopped"]
+- !private ["9BleClient13ReplaySubjectC", "_lock"]
+- !private ["9BleClient13ReplaySubjectC", "_observers"]
+- ["9BleClient13ReplaySubjectC", "_queue"]
+- !private ["9BleClient13ReplaySubjectC", "_stoppedEvent"]
+- ["9BleClient13ReplaySubjectC", "_synchronized_dispose"]
+- ["9BleClient13ReplaySubjectC", "_synchronized_on"]
+- ["9BleClient13ReplaySubjectC", "_synchronized_subscribe"]
+- ["9BleClient13ReplaySubjectC", "_synchronized_unsubscribe"]
+- ["9BleClient13ReplaySubjectC", "_value"]
+- ["9BleClient13ReplaySubjectC", "addValueToBuffer"]
+- ["9BleClient13ReplaySubjectC", "asObserver"]
+- ["9BleClient13ReplaySubjectC", "create"]
+- ["9BleClient13ReplaySubjectC", "createUnbounded"]
+- ["9BleClient13ReplaySubjectC", "deinit"]
+- !private ["9BleClient13ReplaySubjectC", "dispatch"]
+- ["9BleClient13ReplaySubjectC", "dispose"]
+- ["9BleClient13ReplaySubjectC", "hasObservers"]
+- ["9BleClient13ReplaySubjectC", "init"]
+- !private ["9BleClient13ReplaySubjectC", "init"]
+- ["9BleClient13ReplaySubjectC", "isStopped"]
+- ["9BleClient13ReplaySubjectC", "on"]
+- ["9BleClient13ReplaySubjectC", "replayBuffer"]
+- !private ["9BleClient13ReplaySubjectC", "rxAbstractMethod"]
+- ["9BleClient13ReplaySubjectC", "subscribe"]
+- ["9BleClient13ReplaySubjectC", "synchronizedDispose"]
+- ["9BleClient13ReplaySubjectC", "synchronizedUnsubscribe"]
+- ["9BleClient13ReplaySubjectC", "trim"]
+- ["9BleClient13ReplaySubjectC", "unsubscribe"]
+- !private ["9BleClient7RxErrorO", "deinit"]
+- !private ["9BleClient7RxErrorO", "disposed"]
+- !private ["ST", "count"]
+- !private ["ST", "dequeue"]
+- !private ["ST", "enqueue"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["9BleClient11SubjectTypeP", "Disposables"]
+- ["9BleClient11SubjectTypeP", "DisposeKey"]
+- ["9BleClient11SubjectTypeP", "E"]
+- ["9BleClient11SubjectTypeP", "Observers"]
+- !private ["9BleClient11SubjectTypeP", "Queue"]
+- ["9BleClient11SubjectTypeP", "RecursiveLock"]
+- !private ["9BleClient11SubjectTypeP", "ReplayAll"]
+- !private ["9BleClient11SubjectTypeP", "ReplayMany"]
+- !private ["9BleClient11SubjectTypeP", "ReplayOne"]
+- !private ["9BleClient11SubjectTypeP", "RxError"]
+- ["9BleClient11SubjectTypeP", "SubjectObserverType"]
+- !private ["9BleClient11SubjectTypeP", "SubscriptionDisposable"]
+- ["9BleClient11SubjectTypeP", ""]
+- !private ["9BleClient11SubjectTypeP", "_bufferSize"]
+- !private ["9BleClient11SubjectTypeP", "_isDisposed"]
+- !private ["9BleClient11SubjectTypeP", "_isStopped"]
+- !private ["9BleClient11SubjectTypeP", "_lock"]
+- !private ["9BleClient11SubjectTypeP", "_observers"]
+- !private ["9BleClient11SubjectTypeP", "_queue"]
+- !private ["9BleClient11SubjectTypeP", "_stoppedEvent"]
+- !private ["9BleClient11SubjectTypeP", "_synchronized_dispose"]
+- !private ["9BleClient11SubjectTypeP", "_synchronized_on"]
+- !private ["9BleClient11SubjectTypeP", "_synchronized_subscribe"]
+- !private ["9BleClient11SubjectTypeP", "_synchronized_unsubscribe"]
+- !private ["9BleClient11SubjectTypeP", "_value"]
+- !private ["9BleClient11SubjectTypeP", "addValueToBuffer"]
+- ["9BleClient11SubjectTypeP", "asObserver"]
+- !private ["9BleClient11SubjectTypeP", "dispatch"]
+- ["9BleClient11SubjectTypeP", "dispose"]
+- !private ["9BleClient11SubjectTypeP", "init"]
+- !private ["9BleClient11SubjectTypeP", "init"]
+- ["9BleClient11SubjectTypeP", "on"]
+- !private ["9BleClient11SubjectTypeP", "replayBuffer"]
+- !private ["9BleClient11SubjectTypeP", "rxAbstractMethod"]
+- !private ["9BleClient11SubjectTypeP", "synchronizedDispose"]
+- ["9BleClient11SubjectTypeP", "synchronizedUnsubscribe"]
+- !private ["9BleClient11SubjectTypeP", "trim"]
+- !private ["9BleClient22SubscriptionDisposableV", "deinit"]
+- !private ["9BleClient22SubscriptionDisposableV", "init"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "Disposables"]
+- ["9BleClient27SynchronizedUnsubscribeTypeP", "DisposeKey"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "Observers"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "Queue"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "RxError"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "SubscriptionDisposable"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", ""]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_bufferSize"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_isDisposed"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_isStopped"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_lock"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_observers"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_queue"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_stoppedEvent"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_synchronized_dispose"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_synchronized_on"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_synchronized_subscribe"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_synchronized_unsubscribe"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "_value"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "addValueToBuffer"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "dispatch"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "replayBuffer"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "rxAbstractMethod"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "synchronizedDispose"]
+- ["9BleClient27SynchronizedUnsubscribeTypeP", "synchronizedUnsubscribe"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "trim"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "9BleClient11AnyObserverV"
+- "9BleClient3BagV"
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "9BleClient10DisposableP"
+- !private "9BleClient11DisposablesV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "9BleClient5EventO"
+- "9BleClient16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "9BleClient4LockP"
+- !private "s25LosslessStringConvertibleP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- "9BleClient12ObserverTypeP"
+- !private "9BleClient5QueueV"
+- "9BleClient18ReactiveCompatibleP"
+- "9BleClient13ReplaySubjectC"
+- !private "9BleClient7RxErrorO"
+- !private "ST"
+- !private "s12StaticStringV"
+- "9BleClient11SubjectTypeP"
+- !private "9BleClient22SubscriptionDisposableV"
+- "9BleClient27SynchronizedUnsubscribeTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a89e6dd9a2035b55f3104edb7518b7c7"

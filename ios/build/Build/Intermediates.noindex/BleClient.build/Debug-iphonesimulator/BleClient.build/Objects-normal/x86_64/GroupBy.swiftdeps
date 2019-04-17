@@ -1,0 +1,327 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9BleClient14ObservableTypeP", ""]
+- ["9BleClient14ObservableTypeP", "groupBy"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cancelable"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- "GroupBy"
+- !private "GroupBySink"
+- "GroupedObservable"
+- !private "GroupedObservableImpl"
+- "Hashable"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "Producer"
+- "PublishSubject"
+- "RefCountDisposable"
+- "SingleAssignmentDisposable"
+- "Sink"
+- !private "StringLiteralType"
+- "Swift"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "values"]
+- !private ["9BleClient10CancelableP", "dispose"]
+- ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "on"]
+- !private ["9BleClient10CancelableP", "retain"]
+- !private ["9BleClient10CancelableP", "setDisposable"]
+- !private ["9BleClient10CancelableP", "subscribe"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- ["9BleClient10DisposableP", "E"]
+- !private ["9BleClient10DisposableP", "GroupedObservable"]
+- !private ["9BleClient10DisposableP", "GroupedObservableImpl"]
+- !private ["9BleClient10DisposableP", "Key"]
+- !private ["9BleClient10DisposableP", "PublishSubject"]
+- !private ["9BleClient10DisposableP", "RefCountDisposable"]
+- ["9BleClient10DisposableP", "SingleAssignmentDisposable"]
+- !private ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_groupedSubjectTable"]
+- !private ["9BleClient10DisposableP", "_parent"]
+- !private ["9BleClient10DisposableP", "_refCountDisposable"]
+- !private ["9BleClient10DisposableP", "_subscription"]
+- !private ["9BleClient10DisposableP", "dispose"]
+- !private ["9BleClient10DisposableP", "error"]
+- !private ["9BleClient10DisposableP", "forwardOn"]
+- !private ["9BleClient10DisposableP", "forwardOnGroups"]
+- ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "on"]
+- !private ["9BleClient10DisposableP", "onGroupEvent"]
+- !private ["9BleClient10DisposableP", "retain"]
+- !private ["9BleClient10DisposableP", "run"]
+- !private ["9BleClient10DisposableP", "setDisposable"]
+- !private ["9BleClient10DisposableP", "subscribe"]
+- !private ["9BleClient11DisposablesV", "create"]
+- !private ["9BleClient11DisposeBaseC", "dispose"]
+- ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "retain"]
+- !private ["9BleClient11DisposeBaseC", "setDisposable"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "values"]
+- ["9BleClient5EventO", "completed"]
+- ["9BleClient5EventO", "error"]
+- ["9BleClient5EventO", "next"]
+- ["9BleClient16EventConvertibleP", "completed"]
+- ["9BleClient16EventConvertibleP", "error"]
+- ["9BleClient16EventConvertibleP", "next"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9BleClient17GroupedObservableV", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "values"]
+- ["9BleClient10ObservableC", "Cancelable"]
+- ["9BleClient10ObservableC", "Disposable"]
+- !private ["9BleClient10ObservableC", "Disposables"]
+- ["9BleClient10ObservableC", "E"]
+- ["9BleClient10ObservableC", "Element"]
+- !private ["9BleClient10ObservableC", "GroupBySink"]
+- ["9BleClient10ObservableC", "GroupedObservable"]
+- ["9BleClient10ObservableC", "Key"]
+- ["9BleClient10ObservableC", "KeySelector"]
+- ["9BleClient10ObservableC", "Observable"]
+- ["9BleClient10ObservableC", "ObserverType"]
+- ["9BleClient10ObservableC", "PublishSubject"]
+- ["9BleClient10ObservableC", "RefCountDisposable"]
+- !private ["9BleClient10ObservableC", ""]
+- ["9BleClient10ObservableC", "_refCount"]
+- ["9BleClient10ObservableC", "_selector"]
+- ["9BleClient10ObservableC", "_source"]
+- ["9BleClient10ObservableC", "_subject"]
+- !private ["9BleClient10ObservableC", "deinit"]
+- ["9BleClient10ObservableC", "init"]
+- !private ["9BleClient10ObservableC", "on"]
+- ["9BleClient10ObservableC", "run"]
+- ["9BleClient10ObservableC", "subscribe"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "Disposables"]
+- ["9BleClient25ObservableConvertibleTypeP", "E"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "GroupBy"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "GroupBySink"]
+- ["9BleClient25ObservableConvertibleTypeP", "GroupedObservable"]
+- ["9BleClient25ObservableConvertibleTypeP", "Hashable"]
+- ["9BleClient25ObservableConvertibleTypeP", "Observable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", ""]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_refCount"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_selector"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_source"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "_subject"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "asObservable"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "init"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "on"]
+- !private ["9BleClient25ObservableConvertibleTypeP", "subscribe"]
+- !private ["9BleClient14ObservableTypeP", "Disposables"]
+- ["9BleClient14ObservableTypeP", "E"]
+- !private ["9BleClient14ObservableTypeP", "GroupBy"]
+- !private ["9BleClient14ObservableTypeP", "GroupBySink"]
+- ["9BleClient14ObservableTypeP", "GroupedObservable"]
+- ["9BleClient14ObservableTypeP", "Hashable"]
+- ["9BleClient14ObservableTypeP", "Observable"]
+- !private ["9BleClient14ObservableTypeP", ""]
+- !private ["9BleClient14ObservableTypeP", "_refCount"]
+- !private ["9BleClient14ObservableTypeP", "_selector"]
+- !private ["9BleClient14ObservableTypeP", "_source"]
+- !private ["9BleClient14ObservableTypeP", "_subject"]
+- !private ["9BleClient14ObservableTypeP", "asObservable"]
+- ["9BleClient14ObservableTypeP", "groupBy"]
+- !private ["9BleClient14ObservableTypeP", "init"]
+- !private ["9BleClient14ObservableTypeP", "on"]
+- !private ["9BleClient14ObservableTypeP", "subscribe"]
+- ["9BleClient12ObserverTypeP", "E"]
+- !private ["9BleClient12ObserverTypeP", "GroupedObservable"]
+- !private ["9BleClient12ObserverTypeP", "GroupedObservableImpl"]
+- !private ["9BleClient12ObserverTypeP", "Key"]
+- !private ["9BleClient12ObserverTypeP", "PublishSubject"]
+- !private ["9BleClient12ObserverTypeP", "RefCountDisposable"]
+- ["9BleClient12ObserverTypeP", "SingleAssignmentDisposable"]
+- !private ["9BleClient12ObserverTypeP", ""]
+- !private ["9BleClient12ObserverTypeP", "_groupedSubjectTable"]
+- !private ["9BleClient12ObserverTypeP", "_parent"]
+- !private ["9BleClient12ObserverTypeP", "_refCountDisposable"]
+- !private ["9BleClient12ObserverTypeP", "_subscription"]
+- !private ["9BleClient12ObserverTypeP", "dispose"]
+- !private ["9BleClient12ObserverTypeP", "error"]
+- !private ["9BleClient12ObserverTypeP", "forwardOn"]
+- !private ["9BleClient12ObserverTypeP", "forwardOnGroups"]
+- !private ["9BleClient12ObserverTypeP", "init"]
+- ["9BleClient12ObserverTypeP", "on"]
+- !private ["9BleClient12ObserverTypeP", "onGroupEvent"]
+- !private ["9BleClient12ObserverTypeP", "run"]
+- !private ["9BleClient12ObserverTypeP", "subscribe"]
+- ["9BleClient8ProducerC", "Cancelable"]
+- ["9BleClient8ProducerC", "Disposable"]
+- ["9BleClient8ProducerC", "Element"]
+- !private ["9BleClient8ProducerC", "GroupBySink"]
+- ["9BleClient8ProducerC", "GroupedObservable"]
+- ["9BleClient8ProducerC", "Key"]
+- ["9BleClient8ProducerC", "KeySelector"]
+- ["9BleClient8ProducerC", "Observable"]
+- ["9BleClient8ProducerC", "ObserverType"]
+- !private ["9BleClient8ProducerC", ""]
+- ["9BleClient8ProducerC", "_selector"]
+- ["9BleClient8ProducerC", "_source"]
+- ["9BleClient8ProducerC", "init"]
+- ["9BleClient8ProducerC", "run"]
+- !private ["9BleClient14PublishSubjectC", "deinit"]
+- !private ["9BleClient14PublishSubjectC", "init"]
+- !private ["9BleClient14PublishSubjectC", "on"]
+- !private ["9BleClient14PublishSubjectC", "subscribe"]
+- !private ["9BleClient18RefCountDisposableC", "deinit"]
+- !private ["9BleClient18RefCountDisposableC", "init"]
+- !private ["9BleClient18RefCountDisposableC", "retain"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "values"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "dispose"]
+- ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+- ["9BleClient4SinkC", "Cancelable"]
+- ["9BleClient4SinkC", "Disposable"]
+- ["9BleClient4SinkC", "E"]
+- ["9BleClient4SinkC", "Element"]
+- ["9BleClient4SinkC", "Event"]
+- ["9BleClient4SinkC", "GroupBy"]
+- !private ["9BleClient4SinkC", "GroupedObservable"]
+- !private ["9BleClient4SinkC", "GroupedObservableImpl"]
+- ["9BleClient4SinkC", "Key"]
+- ["9BleClient4SinkC", "O"]
+- ["9BleClient4SinkC", "Parent"]
+- ["9BleClient4SinkC", "PublishSubject"]
+- ["9BleClient4SinkC", "RefCountDisposable"]
+- ["9BleClient4SinkC", "SingleAssignmentDisposable"]
+- ["9BleClient4SinkC", "Swift"]
+- !private ["9BleClient4SinkC", ""]
+- ["9BleClient4SinkC", "_groupedSubjectTable"]
+- ["9BleClient4SinkC", "_parent"]
+- ["9BleClient4SinkC", "_refCountDisposable"]
+- ["9BleClient4SinkC", "_subscription"]
+- !private ["9BleClient4SinkC", "dispose"]
+- ["9BleClient4SinkC", "error"]
+- !private ["9BleClient4SinkC", "forwardOn"]
+- ["9BleClient4SinkC", "forwardOnGroups"]
+- ["9BleClient4SinkC", "init"]
+- ["9BleClient4SinkC", "on"]
+- ["9BleClient4SinkC", "onGroupEvent"]
+- ["9BleClient4SinkC", "run"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["9BleClient11SubjectTypeP", "init"]
+- !private ["9BleClient11SubjectTypeP", "on"]
+- !private ["9BleClient11SubjectTypeP", "subscribe"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "on"]
+- !private ["9BleClient27SynchronizedUnsubscribeTypeP", "subscribe"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "9BleClient10CancelableP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- "9BleClient10DisposableP"
+- !private "9BleClient11DisposablesV"
+- "9BleClient11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- "9BleClient5EventO"
+- "9BleClient16EventConvertibleP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9BleClient17GroupedObservableV"
+- !private "SH"
+- "9BleClient10ObservableC"
+- "9BleClient25ObservableConvertibleTypeP"
+- "9BleClient14ObservableTypeP"
+- "9BleClient12ObserverTypeP"
+- "9BleClient8ProducerC"
+- !private "9BleClient14PublishSubjectC"
+- !private "9BleClient18RefCountDisposableC"
+- !private "ST"
+- "9BleClient26SingleAssignmentDisposableC"
+- "9BleClient4SinkC"
+- !private "s12StaticStringV"
+- !private "9BleClient11SubjectTypeP"
+- !private "9BleClient27SynchronizedUnsubscribeTypeP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9fa0b5d5c9ca503126b8ef7720c1a17f"

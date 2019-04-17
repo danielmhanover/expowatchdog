@@ -1,0 +1,272 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyRecursiveScheduler"
+- "RecursiveImmediateScheduler"
+provides-nominal:
+- "9BleClient21AnyRecursiveSchedulerC"
+- "9BleClient27RecursiveImmediateSchedulerC"
+provides-member:
+- ["9BleClient21AnyRecursiveSchedulerC", ""]
+- ["9BleClient27RecursiveImmediateSchedulerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyRecursiveScheduler"
+- "AssignmentPrecedence"
+- "CompositeDisposable"
+- !private "Disposable"
+- !private "Disposables"
+- "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "IntegerLiteralType"
+- "RecursiveImmediateScheduler"
+- "RecursiveLock"
+- "RxTimeInterval"
+- !private "ScheduleState"
+- "SchedulerType"
+- "SpinLock"
+- "StringLiteralType"
+- "Void"
+- !private "rxFatalError"
+depends-member:
+- ["9BleClient21AnyRecursiveSchedulerC", "Action"]
+- ["9BleClient21AnyRecursiveSchedulerC", "AnyRecursiveScheduler"]
+- ["9BleClient21AnyRecursiveSchedulerC", "CompositeDisposable"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "Disposable"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "Disposables"]
+- ["9BleClient21AnyRecursiveSchedulerC", "RecursiveLock"]
+- ["9BleClient21AnyRecursiveSchedulerC", "RxTimeInterval"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "ScheduleState"]
+- ["9BleClient21AnyRecursiveSchedulerC", "SchedulerType"]
+- ["9BleClient21AnyRecursiveSchedulerC", "State"]
+- ["9BleClient21AnyRecursiveSchedulerC", "Void"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "_action"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "_group"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "_lock"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "_scheduler"]
+- ["9BleClient21AnyRecursiveSchedulerC", "dispose"]
+- ["9BleClient21AnyRecursiveSchedulerC", "init"]
+- !private ["9BleClient21AnyRecursiveSchedulerC", "rxFatalError"]
+- ["9BleClient21AnyRecursiveSchedulerC", "schedule"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "calculateLocked"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performLocked"]
+- ["9BleClient10CancelableP", "DisposeKey"]
+- !private ["9BleClient10CancelableP", "dispose"]
+- ["9BleClient10CancelableP", "init"]
+- !private ["9BleClient10CancelableP", "insert"]
+- !private ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "remove"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["9BleClient19CompositeDisposableC", "DisposeKey"]
+- !private ["9BleClient19CompositeDisposableC", "deinit"]
+- !private ["9BleClient19CompositeDisposableC", "dispose"]
+- ["9BleClient19CompositeDisposableC", "init"]
+- !private ["9BleClient19CompositeDisposableC", "insert"]
+- !private ["9BleClient19CompositeDisposableC", "isDisposed"]
+- !private ["9BleClient19CompositeDisposableC", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateLocked"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performLocked"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "calculateLocked"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performLocked"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["9BleClient10DisposableP", "DisposeKey"]
+- !private ["9BleClient10DisposableP", "dispose"]
+- ["9BleClient10DisposableP", "init"]
+- !private ["9BleClient10DisposableP", "insert"]
+- !private ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "remove"]
+- !private ["9BleClient11DisposablesV", "create"]
+- ["9BleClient11DisposeBaseC", "DisposeKey"]
+- !private ["9BleClient11DisposeBaseC", "dispose"]
+- ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "insert"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "remove"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "calculateLocked"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "performLocked"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "calculateLocked"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "performLocked"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "schedule"]
+- !private ["9BleClient22ImmediateSchedulerTypeP", "scheduleRelative"]
+- !private ["9BleClient4LockP", "calculateLocked"]
+- ["9BleClient4LockP", "init"]
+- !private ["9BleClient4LockP", "performLocked"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So9NSLockingP", "calculateLocked"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "performLocked"]
+- !private ["So8NSObjectC", "calculateLocked"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performLocked"]
+- !private ["So8NSObjectP", "calculateLocked"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performLocked"]
+- !private ["So15NSRecursiveLockC", "calculateLocked"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "performLocked"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "calculateLocked"]
+- ["9BleClient18ReactiveCompatibleP", "init"]
+- !private ["9BleClient18ReactiveCompatibleP", "performLocked"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "Action"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "CompositeDisposable"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "Disposable"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "Disposables"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "ImmediateSchedulerType"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "ScheduleState"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "SpinLock"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "State"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "Void"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "_action"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "_group"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "_lock"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "_scheduler"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "dispose"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "init"]
+- !private ["9BleClient27RecursiveImmediateSchedulerC", "rxFatalError"]
+- ["9BleClient27RecursiveImmediateSchedulerC", "schedule"]
+- !private ["9BleClient13SchedulerTypeP", "schedule"]
+- !private ["9BleClient13SchedulerTypeP", "scheduleRelative"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateLocked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performLocked"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "9BleClient21AnyRecursiveSchedulerC"
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "9BleClient10CancelableP"
+- !private "Sl"
+- !private "SL"
+- "9BleClient19CompositeDisposableC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "9BleClient10DisposableP"
+- !private "9BleClient11DisposablesV"
+- "9BleClient11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "9BleClient22ImmediateSchedulerTypeP"
+- "9BleClient4LockP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- !private "Sm"
+- "9BleClient18ReactiveCompatibleP"
+- "9BleClient27RecursiveImmediateSchedulerC"
+- !private "9BleClient13SchedulerTypeP"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8f5289f04630349f6c7b155c7b99accd"

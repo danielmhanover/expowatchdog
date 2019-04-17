@@ -1,0 +1,10 @@
+dependencies: \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Views/RCTDatePicker.m \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Views/RCTDatePicker.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h

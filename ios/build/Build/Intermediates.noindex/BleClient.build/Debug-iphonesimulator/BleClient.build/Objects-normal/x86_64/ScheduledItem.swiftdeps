@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScheduledItem"
+provides-nominal:
+- "9BleClient13ScheduledItemV"
+provides-member:
+- ["9BleClient13ScheduledItemV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "Disposable"
+- "InvocableType"
+- "ScheduledItem"
+- "ScheduledItemType"
+- "SingleAssignmentDisposable"
+depends-member:
+- ["9BleClient10CancelableP", "SingleAssignmentDisposable"]
+- ["9BleClient10CancelableP", ""]
+- !private ["9BleClient10CancelableP", "_action"]
+- !private ["9BleClient10CancelableP", "_disposable"]
+- !private ["9BleClient10CancelableP", "_state"]
+- ["9BleClient10CancelableP", "dispose"]
+- ["9BleClient10CancelableP", "init"]
+- ["9BleClient10CancelableP", "invoke"]
+- ["9BleClient10CancelableP", "isDisposed"]
+- !private ["9BleClient10CancelableP", "setDisposable"]
+- ["9BleClient10DisposableP", "SingleAssignmentDisposable"]
+- ["9BleClient10DisposableP", ""]
+- !private ["9BleClient10DisposableP", "_action"]
+- !private ["9BleClient10DisposableP", "_disposable"]
+- !private ["9BleClient10DisposableP", "_state"]
+- ["9BleClient10DisposableP", "dispose"]
+- ["9BleClient10DisposableP", "init"]
+- ["9BleClient10DisposableP", "invoke"]
+- ["9BleClient10DisposableP", "isDisposed"]
+- !private ["9BleClient10DisposableP", "setDisposable"]
+- !private ["9BleClient11DisposeBaseC", "dispose"]
+- ["9BleClient11DisposeBaseC", "init"]
+- !private ["9BleClient11DisposeBaseC", "isDisposed"]
+- !private ["9BleClient11DisposeBaseC", "setDisposable"]
+- ["9BleClient13InvocableTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient13InvocableTypeP", ""]
+- !private ["9BleClient13InvocableTypeP", "_action"]
+- !private ["9BleClient13InvocableTypeP", "_disposable"]
+- !private ["9BleClient13InvocableTypeP", "_state"]
+- ["9BleClient13InvocableTypeP", "dispose"]
+- ["9BleClient13InvocableTypeP", "invoke"]
+- ["9BleClient13InvocableTypeP", "isDisposed"]
+- ["9BleClient13ScheduledItemV", "Action"]
+- ["9BleClient13ScheduledItemV", "Bool"]
+- ["9BleClient13ScheduledItemV", "Disposable"]
+- ["9BleClient13ScheduledItemV", "SingleAssignmentDisposable"]
+- ["9BleClient13ScheduledItemV", "T"]
+- !private ["9BleClient13ScheduledItemV", "_action"]
+- !private ["9BleClient13ScheduledItemV", "_disposable"]
+- !private ["9BleClient13ScheduledItemV", "_state"]
+- ["9BleClient13ScheduledItemV", "deinit"]
+- ["9BleClient13ScheduledItemV", "dispose"]
+- ["9BleClient13ScheduledItemV", "init"]
+- ["9BleClient13ScheduledItemV", "invoke"]
+- ["9BleClient13ScheduledItemV", "isDisposed"]
+- ["9BleClient17ScheduledItemTypeP", "SingleAssignmentDisposable"]
+- ["9BleClient17ScheduledItemTypeP", ""]
+- !private ["9BleClient17ScheduledItemTypeP", "_action"]
+- !private ["9BleClient17ScheduledItemTypeP", "_disposable"]
+- !private ["9BleClient17ScheduledItemTypeP", "_state"]
+- ["9BleClient17ScheduledItemTypeP", "dispose"]
+- ["9BleClient17ScheduledItemTypeP", "invoke"]
+- ["9BleClient17ScheduledItemTypeP", "isDisposed"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "deinit"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "dispose"]
+- ["9BleClient26SingleAssignmentDisposableC", "init"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["9BleClient26SingleAssignmentDisposableC", "setDisposable"]
+depends-nominal:
+- "9BleClient10CancelableP"
+- "9BleClient10DisposableP"
+- "9BleClient11DisposeBaseC"
+- "9BleClient13InvocableTypeP"
+- "9BleClient13ScheduledItemV"
+- "9BleClient17ScheduledItemTypeP"
+- "9BleClient26SingleAssignmentDisposableC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/danielhanover/Documents/Penn/ESE450/ExpoWatchdog/node_modules/react-native-ble-plx/ios/BleClient-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a4a0e41751c5ae3170f001174aa0eca"
